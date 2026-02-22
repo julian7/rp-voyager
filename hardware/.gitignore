@@ -1,0 +1,6 @@
+*-cache
+*-table
+*-backups
+\#auto_saved_files#
+*.bak
+_autosave*
