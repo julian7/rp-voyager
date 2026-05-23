@@ -1,0 +1,30 @@
+/dts-v1/;
+
+#include <zephyr/dt-bindings/gpio/gpio.h>
+#include <raspberrypi/rpi_pico/rp2350.dtsi>
+
+/ {
+	model = "Voyager RP2354A";
+	compatible = "zmk,keyboard";
+
+
+
+	chosen {
+		zephyr,console = &uart0;
+		zephyr,shell-uart = &uart0;
+		zephyr,uart-mcumgr = &uart0;
+	};
+
+
+};
+
+/* TODO: set the correct UART instance and pins for TRRS split transport */
+&uart0 {
+	status = "okay";
+	current-speed = <115200>;
+};
+
+/* Example status LED (optional) */
+&gpio0 {
+	status = "okay";
+};

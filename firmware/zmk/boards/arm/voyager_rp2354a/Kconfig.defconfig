@@ -1,0 +1,12 @@
+if BOARD_VOYAGER_RP2354A
+
+config ZMK_KEYBOARD
+	default y
+
+config USB_DEVICE_STACK
+	default y
+
+config SERIAL
+	default y
+
+endif
