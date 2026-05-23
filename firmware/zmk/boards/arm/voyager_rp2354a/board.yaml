@@ -1,5 +1,0 @@
-board:
-  name: voyager_rp2354a
-  vendor: voyager
-  socs:
-    - name: rp2350

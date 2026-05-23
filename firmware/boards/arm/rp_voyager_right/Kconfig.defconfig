@@ -1,0 +1,6 @@
+if BOARD_RP_VOYAGER_RIGHT
+
+config USB_SELF_POWERED
+	default n
+
+endif # BOARD_RP_VOYAGER_RIGHT

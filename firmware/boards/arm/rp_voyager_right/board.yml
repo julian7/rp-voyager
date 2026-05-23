@@ -1,0 +1,6 @@
+board:
+  name: rp_voyager_right
+  full_name: RP Voyager Right
+  vendor: rp-voyager
+  socs:
+  - name: rp2350a

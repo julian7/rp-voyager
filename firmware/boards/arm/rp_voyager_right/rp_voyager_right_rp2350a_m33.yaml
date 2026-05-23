@@ -1,0 +1,11 @@
+identifier: rp_voyager_right
+name: Voyager RP2354 right side
+type: board
+arch: arm
+toolchain:
+- zephyr
+- gnuarm
+ram: 520
+flash: 2048
+supported:
+- usb_device

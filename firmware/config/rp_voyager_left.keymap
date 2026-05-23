@@ -1,0 +1,89 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/rgb.h>
+
+/ {
+    behaviors {
+        cesc: caps_escape {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            bindings = <&kp>, <&kp>;
+            flavor = "tap-preferred";
+        };
+
+        zalt: z_alt {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            bindings = <&kp>, <&kp>;
+            flavor = "tap-preferred";
+        };
+
+        ralt: slash_alt {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            bindings = <&kp>, <&kp>;
+            flavor = "tap-preferred";
+        };
+
+        sqts: quote_shift {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            bindings = <&kp>, <&kp>;
+            flavor = "tap-preferred";
+        };
+
+        ent1: enter_layer1 {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            bindings = <&mo>, <&kp>;
+            flavor = "tap-preferred";
+        };
+
+        spc2: space_layer2 {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            bindings = <&mo>, <&kp>;
+            flavor = "tap-preferred";
+        };
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                &kp GRAVE      &kp N1        &kp N2   &kp N3   &kp N4   &kp N5      &kp N6   &kp N7   &kp N8    &kp N9    &kp N0    &kp MINUS
+                &kp TAB        &kp Q         &kp W    &kp E    &kp R    &kp T       &kp Y    &kp U    &kp I     &kp O     &kp P     &kp BSLH
+                &cesc CAPS ESC &kp A         &kp S    &kp D    &kp F    &kp G       &kp H    &kp J    &kp K     &kp L     &kp SEMI  &sqts LSHFT SQT
+                &kp LGUI       &zalt LALT Z  &kp X    &kp C    &kp V    &kp B       &kp N    &kp M    &kp DOT   &kp COMMA &ralt RALT FSLH &kp RCTRL
+                                                      &ent1 1 ENTER &kp LSHFT      &kp BSPC &spc2 2 SPACE
+            >;
+        };
+
+        layer_1 {
+            bindings = <
+                &kp ESC  &kp F1    &kp F2    &kp F3    &kp F4    &kp F5      &kp F6   &kp F7   &kp F8   &kp F9    &kp F10   &kp F11
+                &kp GRAVE &kp EXCL &kp AT    &kp HASH  &kp DLLR  &kp PRCNT   &kp N7   &kp N8   &kp N9   &kp MINUS &kp FSLH  &kp F12
+                &trans   &kp CARET &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR    &kp N4   &kp N5   &kp N6   &kp PLUS  &kp STAR  &kp BSPC
+                &trans   &trans    &kp LBKT  &kp RBKT  &kp LBRC  &kp RBRC    &kp N1   &kp N2   &kp N3   &kp DOT   &kp EQUAL &kp ENTER
+                                             &trans    &trans                  &kp DEL  &kp N0
+            >;
+        };
+
+        layer_2 {
+            bindings = <
+                &rgb_ug RGB_TOG &rgb_ug RGB_BRI &rgb_ug RGB_BRD &rgb_ug RGB_SPI &rgb_ug RGB_SPD &rgb_ug RGB_EFF      &trans       &trans       &trans     &trans    &trans &trans
+                &trans          &trans          &kp C_VOL_DN    &kp C_VOL_UP    &kp C_MUTE      &trans               &kp PG_UP    &kp HOME     &kp UP     &kp END   &trans &trans
+                &trans          &kp C_PREV      &kp C_NEXT      &kp C_STOP      &kp C_PP        &trans               &kp PG_DN    &kp LEFT     &kp DOWN   &kp RIGHT &trans &trans
+                &trans          &trans          &trans          &rgb_ug RGB_HUI &rgb_ug RGB_HUD &rgb_ug RGB_SAD      &trans       &kp LC(TAB)  &kp LS(LC(TAB)) &trans &trans &trans
+                                                                &trans          &trans                               &trans       &trans
+            >;
+        };
+    };
+};

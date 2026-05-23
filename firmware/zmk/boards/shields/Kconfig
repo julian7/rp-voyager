@@ -1,3 +1,0 @@
-menu "Shields"
-rsource "*/Kconfig.shield"
-endmenu

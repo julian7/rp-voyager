@@ -1,3 +1,0 @@
-# Sample board definition for Voyager RP2354A
-config BOARD_VOYAGER_RP2354A
-    bool "Voyager RP2354A"

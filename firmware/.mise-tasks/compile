@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+set -e
+
+#USAGE flag "-t --target <target>" help="compile target (eg. left or right)"
+#USAGE flag "-z --zmkdir <zmkdir>" help="ZMK build environment"
+
+: ${usage_zmkdir:=$HOME/src/zmk}
+
+if [[ ! -e "config/rp_voyager_${usage_target}.conf" ]]; then
+    echo "target ${usage_target} not found."
+    exit 1
+fi
+
+if [[ ! -d ${usage_zmkdir} ]]; then
+    echo "no ZMK directory found at $usage_zmkdir"
+    exit 1
+fi
+
+export RP_VOYAGER_PATH="$PWD"
+mkdir -p "build/${usage_target}"
+
+cd "$usage_zmkdir"
+
+uv run west build --source app --board rp_voyager_${usage_target}/rp2350a/m33 \
+    --build-dir "${RP_VOYAGER_PATH}/build/${usage_target}" --pristine -- \
+    -DZMK_EXTRA_MODULES="${RP_VOYAGER_PATH}" \
+    -DZMK_CONFIG="${RP_VOYAGER_PATH}/config"

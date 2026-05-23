@@ -1,0 +1,4 @@
+name: rp-voyager
+build:
+  settings:
+    board_root: .

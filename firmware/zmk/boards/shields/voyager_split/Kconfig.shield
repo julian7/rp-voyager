@@ -1,3 +1,0 @@
-config SHIELD_VOYAGER_SPLIT
-    bool "Voyager Split"
-    select ZMK_KEYBOARD

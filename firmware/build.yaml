@@ -1,0 +1,3 @@
+include:
+- board: rp_voyager_left
+- board: rp_voyager_right
