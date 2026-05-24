@@ -12,11 +12,14 @@
     chosen {
         zmk,split-role = "peripheral";
     };
-
-	aliases {
-		led-strip = &led_strip;
-	};
 };
+
+&encoder {
+    status = "okay";
+    a-gpios = <&gpio0 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+    b-gpios = <&gpio0 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+};
+
 
 &flash0 {
 	reg = <0x10000000 DT_SIZE_M(2)>;
@@ -63,13 +66,6 @@ zephyr_udc0: &usbd {
 		;
 };
 
-&uart0 {
-	status = "okay";
-	current-speed = <1000000>;
-	pinctrl-0 = <&uart0_default>;
-	pinctrl-names = "default";
-};
-
 &pinctrl {
     ws2812_pio_default: ws2812_pio_default {
         group1 {
@@ -85,4 +81,11 @@ zephyr_udc0: &usbd {
             input-enable;
         };
 	};
+};
+
+&uart0 {
+	status = "okay";
+	current-speed = <1000000>;
+	pinctrl-0 = <&uart0_default>;
+	pinctrl-names = "default";
 };

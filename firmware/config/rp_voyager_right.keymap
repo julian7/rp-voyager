@@ -51,6 +51,18 @@
             bindings = <&mo>, <&kp>;
             flavor = "tap-preferred";
         };
+
+        rgb_bri: rgb_bri {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&rgb_ug RGB_BRD>, <&rgb_ug RGB_BRI>;
+        };
+
+        rgb_hue: rgb_hue {
+        compatible = "zmk,behavior-sensor-rotate";
+        #sensor-binding-cells = <0>;
+        bindings = <&rgb_ug RGB_HUD>, <&rgb_ug RGB_HUI>;
+        };
     };
 
     keymap {
@@ -62,8 +74,9 @@
                 &kp TAB        &kp Q         &kp W    &kp E    &kp R    &kp T       &kp Y    &kp U    &kp I     &kp O     &kp P     &kp BSLH
                 &cesc CAPS ESC &kp A         &kp S    &kp D    &kp F    &kp G       &kp H    &kp J    &kp K     &kp L     &kp SEMI  &sqts LSHFT SQT
                 &kp LGUI       &zalt LALT Z  &kp X    &kp C    &kp V    &kp B       &kp N    &kp M    &kp DOT   &kp COMMA &ralt RALT FSLH &kp RCTRL
-                                                      &ent1 1 ENTER &kp LSHFT      &kp BSPC &spc2 2 SPACE
+                                            &kp C_MUTE &ent1 1 ENTER &kp LSHFT      &kp BSPC &spc2 2 SPACE      &kp C_PP
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>, <&inc_dec_kp C_BRI_DN C_BRI_UP>;
         };
 
         layer_1 {
@@ -72,8 +85,9 @@
                 &kp GRAVE &kp EXCL &kp AT    &kp HASH  &kp DLLR  &kp PRCNT   &kp N7   &kp N8   &kp N9   &kp MINUS &kp FSLH  &kp F12
                 &trans   &kp CARET &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR    &kp N4   &kp N5   &kp N6   &kp PLUS  &kp STAR  &kp BSPC
                 &trans   &trans    &kp LBKT  &kp RBKT  &kp LBRC  &kp RBRC    &kp N1   &kp N2   &kp N3   &kp DOT   &kp EQUAL &kp ENTER
-                                             &trans    &trans                  &kp DEL  &kp N0
+                                  &kp C_STOP &trans    &trans                  &kp DEL  &kp N0  &kp C_REPEAT
             >;
+            sensor-bindings = <&inc_dec_kp C_PREV C_NEXT>, <&inc_dec_kp PG_DN PG_UP>;
         };
 
         layer_2 {
@@ -82,8 +96,9 @@
                 &trans          &trans          &kp C_VOL_DN    &kp C_VOL_UP    &kp C_MUTE      &trans               &kp PG_UP    &kp HOME     &kp UP     &kp END   &trans &trans
                 &trans          &kp C_PREV      &kp C_NEXT      &kp C_STOP      &kp C_PP        &trans               &kp PG_DN    &kp LEFT     &kp DOWN   &kp RIGHT &trans &trans
                 &trans          &trans          &trans          &rgb_ug RGB_HUI &rgb_ug RGB_HUD &rgb_ug RGB_SAD      &trans       &kp LC(TAB)  &kp LS(LC(TAB)) &trans &trans &trans
-                                                                &trans          &trans                               &trans       &trans
+                                                &rgb_ug RGB_TOG &trans          &trans                               &trans       &trans       &rgb_ug RGB_EFF
             >;
+            sensor-bindings = <&rgb_bri>, <&rgb_hue>;
         };
     };
 };
