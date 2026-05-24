@@ -1157,7 +1157,7 @@
 		)
 		(uuid "ef9eb7da-11cb-404c-8b2c-c8ee9f0f593a")
 	)
-	(hierarchical_label "ROW4"
+	(hierarchical_label "COL4"
 		(shape input)
 		(at 181.61 40.64 90)
 		(effects
@@ -1168,8 +1168,8 @@
 		)
 		(uuid "0b7cb010-5870-493d-9e98-be38dee70de3")
 	)
-	(hierarchical_label "COL1"
-		(shape input)
+	(hierarchical_label "ROW1"
+		(shape output)
 		(at 77.47 86.36 180)
 		(effects
 			(font
@@ -1179,7 +1179,7 @@
 		)
 		(uuid "1bf7e6e4-f567-46ba-aade-e1177ce8ef9d")
 	)
-	(hierarchical_label "ROW2"
+	(hierarchical_label "COL2"
 		(shape input)
 		(at 135.89 40.64 90)
 		(effects
@@ -1190,7 +1190,7 @@
 		)
 		(uuid "48c4515e-5f59-4993-8e4e-9d67497344ef")
 	)
-	(hierarchical_label "ROW5"
+	(hierarchical_label "COL5"
 		(shape input)
 		(at 204.47 40.64 90)
 		(effects
@@ -1201,7 +1201,7 @@
 		)
 		(uuid "53f19b54-e7f8-47f3-a72d-5fd9a9773be7")
 	)
-	(hierarchical_label "ROW0"
+	(hierarchical_label "COL0"
 		(shape input)
 		(at 90.17 40.64 90)
 		(effects
@@ -1212,8 +1212,8 @@
 		)
 		(uuid "586550a4-3934-4c2e-bd9b-d6bdbc79fd52")
 	)
-	(hierarchical_label "COL0"
-		(shape input)
+	(hierarchical_label "ROW0"
+		(shape output)
 		(at 77.47 66.04 180)
 		(effects
 			(font
@@ -1223,8 +1223,8 @@
 		)
 		(uuid "59934350-f2c0-47a1-9115-6d1c28499681")
 	)
-	(hierarchical_label "COL2"
-		(shape input)
+	(hierarchical_label "ROW2"
+		(shape output)
 		(at 77.47 106.68 180)
 		(effects
 			(font
@@ -1234,7 +1234,7 @@
 		)
 		(uuid "88002063-c5bc-49ef-af01-29e8923c0145")
 	)
-	(hierarchical_label "ROW3"
+	(hierarchical_label "COL3"
 		(shape input)
 		(at 158.75 40.64 90)
 		(effects
@@ -1245,7 +1245,7 @@
 		)
 		(uuid "956b9115-4b0b-4bd3-876c-4d369c8e2b14")
 	)
-	(hierarchical_label "ROW1"
+	(hierarchical_label "COL1"
 		(shape input)
 		(at 113.03 40.64 90)
 		(effects
@@ -1256,8 +1256,8 @@
 		)
 		(uuid "9637e567-0d90-4713-9aa8-d21fccdd547f")
 	)
-	(hierarchical_label "COL3"
-		(shape input)
+	(hierarchical_label "ROW3"
+		(shape output)
 		(at 77.47 127 180)
 		(effects
 			(font
@@ -1267,8 +1267,8 @@
 		)
 		(uuid "c8712c75-28e8-4698-bfcb-574276b78ee6")
 	)
-	(hierarchical_label "COL4"
-		(shape input)
+	(hierarchical_label "ROW4"
+		(shape output)
 		(at 77.47 147.32 180)
 		(effects
 			(font
