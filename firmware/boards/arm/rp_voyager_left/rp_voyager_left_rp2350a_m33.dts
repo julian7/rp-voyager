@@ -12,10 +12,6 @@
 	chosen {
 		zmk,split-role = "central";
 	};
-
-	aliases {
-		led-strip = &led_strip;
-	};
 };
 
 &flash0 {
@@ -78,7 +74,18 @@ zephyr_udc0: &usbd {
     };
 	uart0_default: uart0_default {
 		group1 {
-			pinmux = <UART0_TX_P0>;
+			pinmux = <UART0_TX_P0>; /* or P12 / P16 / P28 */
 		};
+		group2 {
+            pinmux = <UART0_RX_P1>; /* or P13 / P17 / P29 */
+            input-enable;
+        };
 	};
+};
+
+&uart0 {
+	status = "okay";
+	current-speed = <1000000>;
+	pinctrl-0 = <&uart0_default>;
+	pinctrl-names = "default";
 };
