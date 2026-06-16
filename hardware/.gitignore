@@ -4,3 +4,4 @@
 \#auto_saved_files#
 *.bak
 _autosave*
+.history/

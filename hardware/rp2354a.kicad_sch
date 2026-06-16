@@ -2892,6 +2892,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.9062 20.3962) (xy 36.9062 0.0762)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f63fcb-74b6-4ead-b93e-3272f169128c")
+	)
+	(wire
+		(pts
 			(xy 67.31 146.05) (xy 67.31 143.51)
 		)
 		(stroke
@@ -3229,6 +3239,16 @@
 			(type default)
 		)
 		(uuid "8cbe67ca-3fe5-43cf-b070-5595d0789a3c")
+	)
+	(wire
+		(pts
+			(xy 0.0762 20.3962) (xy 36.9062 20.3962)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d585823-c4cb-40b0-9953-7aea620bbe8a")
 	)
 	(wire
 		(pts
@@ -4171,7 +4191,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "ABRACON"
 			(at 195.58 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -4182,7 +4202,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://hu.mouser.com/ProductDetail/815-AB201610S3R3101T"
 			(at 195.58 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -4289,7 +4309,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1aa3c7ee-2f21-419e-b8d3-c71c2bc290ab")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 132.08 40.6462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4311,7 +4331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric"
 			(at 129.54 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4441,11 +4461,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "C54")
+					(reference "C55")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4463,7 +4483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ab39ae9-3b85-4b58-a008-8494c5d2fbc2")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR033"
 			(at 166.37 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -4523,11 +4543,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "#PWR0101")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "#PWR025")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4578,7 +4598,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://hu.mouser.com/datasheet/3/184/1/ABM8_272_T3.pdf"
 			(at 88.9 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4622,7 +4642,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "ABRACON"
 			(at 88.9 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4725,7 +4745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36d53f8e-af9e-4e1f-ba0a-7e1512f37ef4")
-		(property "Reference" "R11"
+		(property "Reference" "R16"
 			(at 129.54 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4745,7 +4765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 129.54 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4789,7 +4809,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://hu.mouser.com/ProductDetail/YAGEO/RC0402FR-0727RL?qs=UOUeRUa%252B8Wlb37UyFHw9Bw%3D%3D"
 			(at 129.54 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4875,11 +4895,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "R32")
+					(reference "R37")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "R11")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4896,7 +4916,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ba06b17-118b-4db4-83e7-c7c3f11b8b51")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR031"
 			(at 97.79 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4956,11 +4976,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "#PWR099")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "#PWR023")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5329,7 +5349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42ef0501-d272-4310-8fca-c41ffc63db2d")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR030"
 			(at 97.79 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5389,11 +5409,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "#PWR098")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "#PWR022")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5410,7 +5430,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43ba3d62-6033-4bb5-8930-2c0f59c7c3db")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 74.9362 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5432,7 +5452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric"
 			(at 76.2 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -5562,11 +5582,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "C49")
+					(reference "C50")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5584,7 +5604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b1b36d7-0b6e-4b71-9182-69f3c39e6c9d")
-		(property "Reference" "R7"
+		(property "Reference" "R12"
 			(at 105.41 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5604,7 +5624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
 			(at 105.41 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5670,7 +5690,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 3" ""
+		(property "Distributor Link 3" "https://www.hestore.hu/prod_10049434.html"
 			(at 105.41 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5734,11 +5754,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "R28")
+					(reference "R33")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "R7")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5756,7 +5776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ee3f520-46e2-40a0-89d9-ae6295925603")
-		(property "Reference" "R10"
+		(property "Reference" "R15"
 			(at 123.19 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5776,7 +5796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 123.19 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5820,7 +5840,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://hu.mouser.com/ProductDetail/YAGEO/RC0402FR-0727RL?qs=UOUeRUa%252B8Wlb37UyFHw9Bw%3D%3D"
 			(at 123.19 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5906,11 +5926,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "R31")
+					(reference "R36")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "R10")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5928,7 +5948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "782759b9-dd22-445e-a910-ac212e3a952a")
-		(property "Reference" "R8"
+		(property "Reference" "R13"
 			(at 105.41 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5948,7 +5968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
 			(at 105.41 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6014,7 +6034,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 3" ""
+		(property "Distributor Link 3" "https://www.hestore.hu/prod_10049434.html"
 			(at 105.41 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6078,11 +6098,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "R29")
+					(reference "R34")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "R8")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6100,7 +6120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78afaaba-c784-44cb-ad7d-bf41d5c28a51")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR027"
 			(at 66.04 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6160,11 +6180,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "#PWR095")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "#PWR019")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6182,7 +6202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "826c21a7-9d5b-46ef-b594-961882eadb0e")
-		(property "Reference" "R6"
+		(property "Reference" "R11"
 			(at 99.06 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6202,7 +6222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 99.06 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6268,7 +6288,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 3" ""
+		(property "Distributor Link 3" "https://www.hestore.hu/prod_10030528.html"
 			(at 99.06 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6332,11 +6352,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "R27")
+					(reference "R32")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "R6")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6353,7 +6373,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a62c6a0-8a1d-46b6-996d-95e66cd27f37")
-		(property "Reference" "C24"
+		(property "Reference" "C25"
 			(at 233.68 64.7762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6375,7 +6395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric"
 			(at 231.14 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6505,11 +6525,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "C61")
+					(reference "C62")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "C24")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -6677,7 +6697,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "SW30")
+					(reference "SW31")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
@@ -6781,7 +6801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f758f7a-a67e-42a0-ae94-29942dac9edd")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR028"
 			(at 67.31 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6841,11 +6861,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "#PWR096")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "#PWR020")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6862,7 +6882,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "919e5b19-43ba-42e4-aa41-ba90cda7b5ec")
-		(property "Reference" "C22"
+		(property "Reference" "C23"
 			(at 210.82 64.7762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6884,7 +6904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric"
 			(at 208.28 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7014,11 +7034,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "C59")
+					(reference "C60")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "C22")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -7036,7 +7056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cbe2e4d-99ce-4b26-ae40-2196f3f10142")
-		(property "Reference" "R9"
+		(property "Reference" "R14"
 			(at 119.38 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7056,7 +7076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 119.38 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7100,7 +7120,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://hu.mouser.com/ProductDetail/YAGEO/RC0402FR-7D33RL?qs=sGAEpiMZZMtlubZbdhIBIAA5Rg%252BBqQHDmyOm95fgtck%3D"
 			(at 119.38 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7186,11 +7206,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "R30")
+					(reference "R35")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "R9")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7207,7 +7227,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9db98e1f-5da3-41e4-889b-56f84a698631")
-		(property "Reference" "C16"
+		(property "Reference" "C17"
 			(at 119.38 40.6462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7229,7 +7249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric"
 			(at 116.84 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7359,11 +7379,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "C53")
+					(reference "C54")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "C16")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -7380,7 +7400,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8e6b936-4771-4917-8fe0-d314e74b8b2a")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 81.28 40.6462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7402,7 +7422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric"
 			(at 78.74 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7532,11 +7552,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "C50")
+					(reference "C51")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -7553,7 +7573,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abbed8e8-eeb9-4db6-9eaa-88bc2eb5515a")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 106.68 40.6462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7575,7 +7595,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric"
 			(at 104.14 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7705,11 +7725,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "C52")
+					(reference "C53")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7726,7 +7746,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae6a5bff-551d-4ddd-b483-72231c2c3296")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 74.9362 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7748,7 +7768,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric"
 			(at 76.2 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -7878,11 +7898,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "C48")
+					(reference "C49")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8050,7 +8070,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "SW29")
+					(reference "SW30")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
@@ -8071,7 +8091,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf2dcb5a-22a7-4064-8874-6a12c7007789")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 93.98 40.6462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8093,7 +8113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric"
 			(at 91.44 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8223,11 +8243,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "C51")
+					(reference "C52")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -8244,7 +8264,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c07496b1-a4e5-4f2b-9a31-66da3df587a2")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR029"
 			(at 82.55 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -8304,11 +8324,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "#PWR097")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "#PWR021")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8325,7 +8345,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7ed9c96-615b-4ffb-917e-016689bac22a")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 156.21 40.6462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8347,7 +8367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric"
 			(at 153.67 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8477,11 +8497,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "C57")
+					(reference "C58")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -8499,7 +8519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfd76d37-8909-4208-a240-43dbe6251d80")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR034"
 			(at 198.12 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8559,11 +8579,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "#PWR0102")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "#PWR026")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -8580,7 +8600,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0567e11-17dc-4f9a-9901-9d7e36c139db")
-		(property "Reference" "C21"
+		(property "Reference" "C22"
 			(at 200.66 40.6462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8602,7 +8622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric"
 			(at 198.12 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8732,11 +8752,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "C58")
+					(reference "C59")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "C21")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -8753,7 +8773,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5c1b828-e64c-4fea-bd1e-2dda80b2dbab")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 68.58 40.6462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8775,7 +8795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric"
 			(at 66.04 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8905,11 +8925,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "C47")
+					(reference "C48")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -8927,7 +8947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb1e0978-19be-4881-a0ac-89cfc8e7f805")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR035"
 			(at 231.14 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8987,11 +9007,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "#PWR0103")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "#PWR027")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9008,7 +9028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebbf6930-9e4f-427f-9c6c-c34ab1ed97d9")
-		(property "Reference" "C19"
+		(property "Reference" "C20"
 			(at 144.78 40.6462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9030,7 +9050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric"
 			(at 142.24 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9160,11 +9180,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "C56")
+					(reference "C57")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "C19")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -9181,7 +9201,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0d6c636-b58a-4254-8982-c1c3536500ac")
-		(property "Reference" "C18"
+		(property "Reference" "C19"
 			(at 130.81 66.0338 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9203,7 +9223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric"
 			(at 133.35 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9333,11 +9353,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "C55")
+					(reference "C56")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "C18")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -9354,7 +9374,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5a002d4-8e9f-4443-8463-3dcb096337e3")
-		(property "Reference" "C23"
+		(property "Reference" "C24"
 			(at 222.25 64.7762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9376,7 +9396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0402_1005Metric"
 			(at 219.71 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9506,11 +9526,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "C60")
+					(reference "C61")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "C23")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -9528,7 +9548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbd52ab0-e82e-4c18-8fde-c7472a6221dd")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR032"
 			(at 133.35 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9588,11 +9608,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/4da27810-aa57-48d4-968f-17ddf4c3ee81"
-					(reference "#PWR0100")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/cbc1c79e-4387-41d9-8058-ff8666252fa0"
-					(reference "#PWR024")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)

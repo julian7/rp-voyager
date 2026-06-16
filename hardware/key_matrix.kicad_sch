@@ -1290,7 +1290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "011010c9-e8b7-43b8-8411-7b5a2e5a33c0")
-		(property "Reference" "D3"
+		(property "Reference" "D6"
 			(at 97.79 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1464,11 +1464,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D59")
+					(reference "D64")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D3")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -1528,7 +1528,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 138.43 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -1636,7 +1636,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW42")
+					(reference "SW43")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -1658,7 +1658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03fb6e3e-dea7-48be-8ca2-ed84d87209b7")
-		(property "Reference" "D18"
+		(property "Reference" "D21"
 			(at 189.23 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1832,11 +1832,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D74")
+					(reference "D79")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D18")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -1854,7 +1854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a99bdc2-cfcf-43b3-8e9b-6ab74cfdf58d")
-		(property "Reference" "D6"
+		(property "Reference" "D9"
 			(at 120.65 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2028,11 +2028,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D62")
+					(reference "D67")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D6")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -2092,7 +2092,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 138.43 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -2200,7 +2200,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW39")
+					(reference "SW40")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -2222,7 +2222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c9cd6ca-0136-41a1-bda3-34a28dc9ba0d")
-		(property "Reference" "D14"
+		(property "Reference" "D17"
 			(at 166.37 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2396,11 +2396,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D70")
+					(reference "D75")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D14")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -2418,7 +2418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2462c643-f9a2-4c6d-9b88-806d44c6ccce")
-		(property "Reference" "D22"
+		(property "Reference" "D25"
 			(at 189.23 143.5099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2592,11 +2592,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D78")
+					(reference "D83")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D22")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -2656,7 +2656,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 184.15 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2764,7 +2764,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW48")
+					(reference "SW49")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -2786,7 +2786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2638e2dd-8bfc-4928-aa92-a428dd6d1561")
-		(property "Reference" "D23"
+		(property "Reference" "D26"
 			(at 212.09 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2960,11 +2960,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D79")
+					(reference "D84")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D23")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -3024,7 +3024,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 161.29 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3132,7 +3132,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW45")
+					(reference "SW46")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -3196,7 +3196,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 115.57 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -3304,7 +3304,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW35")
+					(reference "SW36")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -3368,7 +3368,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 92.71 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3476,7 +3476,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW32")
+					(reference "SW33")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -3540,7 +3540,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 184.15 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3648,7 +3648,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW49")
+					(reference "SW50")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -3712,7 +3712,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 92.71 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3820,7 +3820,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW33")
+					(reference "SW34")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -3842,7 +3842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b6d504b-2d70-4da3-8314-f44605334965")
-		(property "Reference" "D24"
+		(property "Reference" "D27"
 			(at 212.09 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4016,11 +4016,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D80")
+					(reference "D85")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D24")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -4080,7 +4080,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 207.01 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4188,7 +4188,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW55")
+					(reference "SW56")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -4252,7 +4252,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 161.29 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4360,7 +4360,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW43")
+					(reference "SW44")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -4424,7 +4424,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 184.15 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4532,7 +4532,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW50")
+					(reference "SW51")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -4554,7 +4554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "616478b5-76ba-4ec3-a173-68b6021f9771")
-		(property "Reference" "D7"
+		(property "Reference" "D10"
 			(at 120.65 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4728,11 +4728,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D63")
+					(reference "D68")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D7")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -4792,7 +4792,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 138.43 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4900,7 +4900,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW40")
+					(reference "SW41")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -4964,7 +4964,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 207.01 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5072,7 +5072,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW52")
+					(reference "SW53")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -5094,7 +5094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "740606e8-e23c-4f37-b7a3-0d79630aa886")
-		(property "Reference" "D15"
+		(property "Reference" "D18"
 			(at 166.37 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5268,11 +5268,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D71")
+					(reference "D76")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D15")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -5290,7 +5290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75dc6006-d927-4e00-a2f1-367c4d98629b")
-		(property "Reference" "D16"
+		(property "Reference" "D19"
 			(at 166.37 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5464,11 +5464,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D72")
+					(reference "D77")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D16")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -5486,7 +5486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8085def2-1477-439a-a18d-9df26648a016")
-		(property "Reference" "D26"
+		(property "Reference" "D29"
 			(at 212.09 123.1899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5660,11 +5660,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D82")
+					(reference "D87")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D26")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -5724,7 +5724,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 207.01 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5832,7 +5832,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW53")
+					(reference "SW54")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -5896,7 +5896,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 184.15 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6004,7 +6004,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW47")
+					(reference "SW48")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -6068,7 +6068,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 115.57 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6176,7 +6176,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW37")
+					(reference "SW38")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -6240,7 +6240,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 207.01 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6348,7 +6348,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW54")
+					(reference "SW55")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -6370,7 +6370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96e549cf-5fbe-49de-9ed0-e7f36c25b40e")
-		(property "Reference" "D13"
+		(property "Reference" "D16"
 			(at 143.51 123.1899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6544,11 +6544,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D69")
+					(reference "D74")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D13")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -6608,7 +6608,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 161.29 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6716,7 +6716,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW44")
+					(reference "SW45")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -6738,7 +6738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9caa12d5-1e49-454d-a8d6-aad5df7fb9e7")
-		(property "Reference" "D10"
+		(property "Reference" "D13"
 			(at 143.51 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6912,11 +6912,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D66")
+					(reference "D71")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D10")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -6934,7 +6934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d9f5834-4a89-4b29-b20f-ae4ad1829c70")
-		(property "Reference" "D5"
+		(property "Reference" "D8"
 			(at 97.79 123.1899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7108,11 +7108,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D61")
+					(reference "D66")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D5")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -7130,7 +7130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa5b37b9-1b77-4cdc-a844-87aec17832a3")
-		(property "Reference" "D4"
+		(property "Reference" "D7"
 			(at 97.79 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7304,11 +7304,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D60")
+					(reference "D65")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D4")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -7326,7 +7326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac3819fc-1144-4df8-a07f-ff9be05a7b5d")
-		(property "Reference" "D8"
+		(property "Reference" "D11"
 			(at 120.65 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7500,11 +7500,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D64")
+					(reference "D69")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D8")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -7522,7 +7522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af6994b8-90b0-461c-9947-ace2921cb02a")
-		(property "Reference" "D12"
+		(property "Reference" "D15"
 			(at 143.51 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7696,11 +7696,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D68")
+					(reference "D73")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D12")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -7718,7 +7718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b42b5459-4005-496e-b84d-fe614d355940")
-		(property "Reference" "D17"
+		(property "Reference" "D20"
 			(at 166.37 123.1899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7892,11 +7892,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D73")
+					(reference "D78")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D17")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -7914,7 +7914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b68ca948-1039-40cc-bf71-db70e0fc1afe")
-		(property "Reference" "D21"
+		(property "Reference" "D24"
 			(at 189.23 123.1899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8088,11 +8088,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D77")
+					(reference "D82")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D21")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -8110,7 +8110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc9587d9-bafc-4d00-b5cf-9750d2ecb046")
-		(property "Reference" "D9"
+		(property "Reference" "D12"
 			(at 120.65 123.1899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8284,11 +8284,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D65")
+					(reference "D70")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D9")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -8348,7 +8348,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 138.43 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8456,7 +8456,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW41")
+					(reference "SW42")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -8478,7 +8478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfb9ff7c-4044-4647-8aa7-61f6659e7e52")
-		(property "Reference" "D19"
+		(property "Reference" "D22"
 			(at 189.23 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8652,11 +8652,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D75")
+					(reference "D80")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D19")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -8716,7 +8716,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 184.15 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8824,7 +8824,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW51")
+					(reference "SW52")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -8888,7 +8888,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 115.57 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8996,7 +8996,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW38")
+					(reference "SW39")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -9060,7 +9060,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 92.71 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9168,7 +9168,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW31")
+					(reference "SW32")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -9232,7 +9232,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 92.71 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9340,7 +9340,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW34")
+					(reference "SW35")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -9404,7 +9404,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 115.57 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9512,7 +9512,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW36")
+					(reference "SW37")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -9534,7 +9534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d104392e-0e64-42fb-ad52-bed9e9c22490")
-		(property "Reference" "D27"
+		(property "Reference" "D30"
 			(at 212.09 143.5099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9708,11 +9708,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D83")
+					(reference "D88")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D27")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -9730,7 +9730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dae0e016-db8b-4923-a58b-655b9a7f0c0d")
-		(property "Reference" "D2"
+		(property "Reference" "D5"
 			(at 97.79 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9904,11 +9904,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D58")
+					(reference "D63")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D2")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -9926,7 +9926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0af4253-33ce-4da4-a07a-79deff1205ba")
-		(property "Reference" "D11"
+		(property "Reference" "D14"
 			(at 143.51 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10100,11 +10100,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D67")
+					(reference "D72")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D11")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -10164,7 +10164,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 161.29 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10272,7 +10272,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW46")
+					(reference "SW47")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -10336,7 +10336,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" "Push button switch, normally open, two pins, 45ÃÂ° tilted"
 			(at 207.01 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10444,7 +10444,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "SW56")
+					(reference "SW57")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
@@ -10466,7 +10466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6fc763e-ee0a-46b1-bc05-6ccb22f85e1b")
-		(property "Reference" "D20"
+		(property "Reference" "D23"
 			(at 189.23 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10640,11 +10640,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D76")
+					(reference "D81")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D20")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -10662,7 +10662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa26ade3-8f60-4afb-ba1d-c28e355f9d88")
-		(property "Reference" "D25"
+		(property "Reference" "D28"
 			(at 212.09 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10836,11 +10836,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/dd1ca8ca-e062-4909-b223-e4b7c766fbe2"
-					(reference "D81")
+					(reference "D86")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/2fdc1269-59d1-4245-80b3-706d9e7275a8"
-					(reference "D25")
+					(reference "D28")
 					(unit 1)
 				)
 			)

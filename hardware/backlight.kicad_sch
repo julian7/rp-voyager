@@ -2137,7 +2137,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D92")
+					(reference "D93")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -2273,7 +2273,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D89")
+					(reference "D90")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -2295,7 +2295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0272daf0-72d4-4c09-9f84-8323b41427c5")
-		(property "Reference" "C28"
+		(property "Reference" "C26"
 			(at 69.85 80.0162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2317,7 +2317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_1210_3225Metric"
 			(at 67.31 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2447,11 +2447,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "C65")
+					(reference "C63")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "C28")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -2583,7 +2583,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D111")
+					(reference "D112")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -2719,7 +2719,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D94")
+					(reference "D95")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -2854,7 +2854,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D98")
+					(reference "D99")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -2989,7 +2989,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D104")
+					(reference "D105")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -3011,7 +3011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "184bc742-b08e-4c86-b8be-99ad43a727bb")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR051"
 			(at 160.02 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3071,11 +3071,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0133")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR057")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3093,7 +3093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1de3eec2-f433-48b5-bb2e-f6521209f047")
-		(property "Reference" "C36"
+		(property "Reference" "C34"
 			(at 97.79 134.6262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3115,7 +3115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0805_2012Metric"
 			(at 95.25 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -3159,7 +3159,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://hu.mouser.com/ProductDetail/KEMET/C0805C106M8RACAUTO7210?qs=HXFqYaX1Q2zcnWiZfdiXkQ%3D%3D"
 			(at 95.25 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -3245,11 +3245,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "C73")
+					(reference "C71")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "C36")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -3380,7 +3380,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D90")
+					(reference "D91")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -3402,7 +3402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21fc98e9-c591-4528-8759-4fd10abbf5ca")
-		(property "Reference" "C35"
+		(property "Reference" "C33"
 			(at 97.79 106.6862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3424,7 +3424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0805_2012Metric"
 			(at 95.25 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3468,7 +3468,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://hu.mouser.com/ProductDetail/KEMET/C0805C106M8RACAUTO7210?qs=HXFqYaX1Q2zcnWiZfdiXkQ%3D%3D"
 			(at 95.25 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3554,11 +3554,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "C72")
+					(reference "C70")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "C35")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -3576,7 +3576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2299fc86-d362-4248-bbba-79ce2806bd9b")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR041"
 			(at 95.25 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -3636,11 +3636,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0121")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR045")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3771,7 +3771,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D108")
+					(reference "D109")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -3907,7 +3907,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D103")
+					(reference "D104")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -4043,7 +4043,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D96")
+					(reference "D97")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -4065,7 +4065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dc42439-1881-4257-ad2f-a55a476a0ce3")
-		(property "Reference" "R20"
+		(property "Reference" "R18"
 			(at 113.03 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4085,7 +4085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
 			(at 113.03 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4151,7 +4151,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 3" ""
+		(property "Distributor Link 3" "https://www.hestore.hu/prod_10049205.html"
 			(at 113.03 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4219,7 +4219,7 @@
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "R20")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -4237,7 +4237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e4bdb92-fdf4-45f6-8af2-84eb6850e2eb")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR048"
 			(at 135.89 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -4297,11 +4297,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0130")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR054")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4432,7 +4432,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D112")
+					(reference "D113")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -4454,7 +4454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3453affa-98bc-4e44-82ab-a1dec03b1891")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR058"
 			(at 208.28 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4514,11 +4514,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0140")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR064")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4536,7 +4536,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "39d06bbc-e8be-4f20-a5cf-1bc8937ab114")
-		(property "Reference" "C37"
+		(property "Reference" "C35"
 			(at 97.79 165.1062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4558,7 +4558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0805_2012Metric"
 			(at 95.25 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -4688,11 +4688,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "C74")
+					(reference "C72")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "C37")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -4823,7 +4823,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D100")
+					(reference "D101")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -4959,7 +4959,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D101")
+					(reference "D102")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -4981,7 +4981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a5e2827-c0bc-4d51-9c1f-b36c9cd5ecbf")
-		(property "Reference" "R19"
+		(property "Reference" "R17"
 			(at 63.5 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5001,7 +5001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
 			(at 63.5 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5067,7 +5067,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 3" ""
+		(property "Distributor Link 3" "https://www.hestore.hu/prod_10023927.html"
 			(at 63.5 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5135,7 +5135,7 @@
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "R19")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -5153,7 +5153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cc83f8a-565e-4b14-ba1b-3ce2d877aa56")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR064"
 			(at 232.41 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5213,11 +5213,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0146")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR070")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -5235,7 +5235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cccc195-67f4-4ad3-9fc1-4298d83ca874")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR054"
 			(at 184.15 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5295,11 +5295,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0136")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR060")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5431,7 +5431,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D109")
+					(reference "D110")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -5453,7 +5453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "526e8d82-9f5d-46c3-9a7b-aab899b82476")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR050"
 			(at 160.02 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5513,11 +5513,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0132")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR056")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -5535,7 +5535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60672ec3-0e1a-4f1c-81af-e2017837d323")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR063"
 			(at 232.41 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5595,11 +5595,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0145")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR069")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -5617,7 +5617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6112bf1d-8f5b-44f4-8da4-7137e5f1ca44")
-		(property "Reference" "C29"
+		(property "Reference" "C27"
 			(at 74.93 26.6762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5639,7 +5639,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0603_1608Metric"
 			(at 72.39 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -5705,7 +5705,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 3" ""
+		(property "Distributor Link 3" "https://www.hestore.hu/prod_10033461.html"
 			(at 72.39 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -5769,11 +5769,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "C66")
+					(reference "C64")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "C29")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -5904,7 +5904,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D97")
+					(reference "D98")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -5926,7 +5926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65bdf609-dfba-4ca3-b878-07fc9cf885ba")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR067"
 			(at 256.54 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5986,11 +5986,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0149")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR073")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -6121,7 +6121,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D106")
+					(reference "D107")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -6324,7 +6324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ee2b925-b09b-4624-99ed-8f8b2b6d164e")
-		(property "Reference" "C31"
+		(property "Reference" "C29"
 			(at 86.36 106.6862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6346,7 +6346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0603_1608Metric"
 			(at 83.82 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6412,7 +6412,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 3" ""
+		(property "Distributor Link 3" "https://www.hestore.hu/prod_10033461.html"
 			(at 83.82 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6476,11 +6476,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "C68")
+					(reference "C66")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "C31")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -6498,7 +6498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "771eaeb5-fd38-466b-90af-5a4812f95a18")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR038"
 			(at 82.55 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6558,11 +6558,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0117")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR041")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -6694,7 +6694,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D99")
+					(reference "D100")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -6716,7 +6716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a2b561c-7231-4e50-bd2f-3b58f5419a76")
-		(property "Reference" "C30"
+		(property "Reference" "C28"
 			(at 86.36 81.2862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6738,7 +6738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0603_1608Metric"
 			(at 83.82 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6804,7 +6804,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 3" ""
+		(property "Distributor Link 3" "https://www.hestore.hu/prod_10033461.html"
 			(at 83.82 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6868,11 +6868,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "C67")
+					(reference "C65")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "C30")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -7003,7 +7003,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D95")
+					(reference "D96")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -7025,7 +7025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86cd6a08-bab3-40d6-bba1-8649b0bbb453")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR061"
 			(at 208.28 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -7085,11 +7085,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0143")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR067")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -7107,7 +7107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "870160cc-27e5-42d8-b6fb-a51ce37f8f23")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR052"
 			(at 160.02 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -7167,11 +7167,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0134")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR058")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -7302,7 +7302,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D93")
+					(reference "D94")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -7324,7 +7324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a2e9c18-035f-4689-8759-33a3c26370bb")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR049"
 			(at 160.02 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7384,11 +7384,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0131")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR055")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -7406,7 +7406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b9ba434-e9b0-44df-aaf9-6bc6af56af48")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR068"
 			(at 256.54 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7466,11 +7466,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0150")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR074")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -7488,7 +7488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fa92feb-dad2-42cb-9b7f-9c40276c3326")
-		(property "Reference" "C34"
+		(property "Reference" "C32"
 			(at 97.79 81.2862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7510,7 +7510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0805_2012Metric"
 			(at 95.25 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7554,7 +7554,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" ""
+		(property "Distributor Link 1" "https://hu.mouser.com/ProductDetail/KEMET/C0805C106M8RACAUTO7210?qs=HXFqYaX1Q2zcnWiZfdiXkQ%3D%3D"
 			(at 95.25 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7640,11 +7640,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "C71")
+					(reference "C69")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "C34")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -7662,7 +7662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9752bac8-d516-4097-9c5d-ea7ff1120896")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR040"
 			(at 95.25 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7722,11 +7722,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0119")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR043")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -7744,7 +7744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ad6cce9-488e-4809-a01f-a94adc231ff9")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR037"
 			(at 72.39 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7804,11 +7804,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0115")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR039")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7826,7 +7826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9eee9a8c-0eea-4612-94b0-5c6bbb84d219")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR062"
 			(at 232.41 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7886,11 +7886,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0144")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR068")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -7908,7 +7908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f5efd1e-b6a1-4a8e-926b-d60381e82259")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR036"
 			(at 67.31 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7968,11 +7968,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0114")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR038")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7990,7 +7990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a55045d8-b6c2-425c-9b6b-1938a68c84d2")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR046"
 			(at 135.89 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8050,11 +8050,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0128")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR052")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -8072,7 +8072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a57f62e6-12af-4ec9-a091-a4412dfb3971")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR047"
 			(at 135.89 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -8132,11 +8132,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0129")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR053")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -8154,7 +8154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1537993-c7bc-4ab9-a5c3-6a597a6758f3")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR066"
 			(at 256.54 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8214,11 +8214,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0148")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR072")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -8236,7 +8236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3ef8e2d-a030-45bc-a9a8-0b0de0a337ae")
-		(property "Reference" "C32"
+		(property "Reference" "C30"
 			(at 86.36 134.6262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8258,7 +8258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0603_1608Metric"
 			(at 83.82 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8324,7 +8324,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 3" ""
+		(property "Distributor Link 3" "https://www.hestore.hu/prod_10033461.html"
 			(at 83.82 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8388,11 +8388,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "C69")
+					(reference "C67")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "C32")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -8410,7 +8410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b97a3a02-a4a4-4417-be16-0d80d86f5814")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR059"
 			(at 208.28 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8470,11 +8470,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0141")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR065")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -8492,7 +8492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be5cbed8-8cfd-4198-baac-d1f6321fce21")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR053"
 			(at 160.02 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -8552,11 +8552,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0135")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR059")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -8687,7 +8687,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D102")
+					(reference "D103")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -8709,7 +8709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c38faf45-98fb-4144-972e-422a9a38164a")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR044"
 			(at 135.89 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8769,11 +8769,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0126")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR050")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -8791,7 +8791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c58eacd8-8ed0-47fd-9d1a-977381a1dcbe")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR056"
 			(at 184.15 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8851,11 +8851,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0138")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR062")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -8873,7 +8873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8ab5eac-4af1-4a89-91e9-0aa3bf6d0d1d")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR057"
 			(at 184.15 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -8933,11 +8933,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0139")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR063")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -9069,7 +9069,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D105")
+					(reference "D106")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -9091,7 +9091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce633c27-4ed2-490a-a492-6a5a842198d8")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR042"
 			(at 95.25 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -9151,11 +9151,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0123")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR047")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -9287,7 +9287,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D113")
+					(reference "D114")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -9466,7 +9466,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D88")
+					(reference "D89")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -9488,7 +9488,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d0e390ec-374d-42a0-b79d-48f6a7bb2fae")
-		(property "Reference" "C33"
+		(property "Reference" "C31"
 			(at 86.36 165.1062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9510,7 +9510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "PCM_Capacitor_SMD_Handsoldering_AKL:C_0603_1608Metric"
 			(at 83.82 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -9640,11 +9640,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "C70")
+					(reference "C68")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "C33")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -9662,7 +9662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4d47ebe-afc7-415d-8753-370c4f5dbe59")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR069"
 			(at 256.54 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -9722,11 +9722,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0151")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR075")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -9858,7 +9858,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D91")
+					(reference "D92")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -9880,7 +9880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9658dfc-b036-4b82-bacd-1d72f1a2b8be")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR043"
 			(at 95.25 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -9940,11 +9940,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0125")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR049")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -9962,7 +9962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc1c70cb-cabe-49f9-a860-704fd811d258")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR055"
 			(at 184.15 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10022,11 +10022,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0137")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR061")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -10044,7 +10044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dee0b4b1-c83e-4e12-a652-c258f57d4461")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR065"
 			(at 232.41 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -10104,11 +10104,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0147")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR071")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -10126,7 +10126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e37de523-f339-4520-b077-6e4d618fa2ed")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR045"
 			(at 135.89 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10186,11 +10186,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0127")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR051")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -10321,7 +10321,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D110")
+					(reference "D111")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
@@ -10343,7 +10343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb9300ec-1455-4380-a21e-60962defe56f")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR060"
 			(at 208.28 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10403,11 +10403,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0142")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR066")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -10425,7 +10425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edc9bd60-e786-4cea-aa07-9fcd3224df31")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR039"
 			(at 92.71 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -10485,11 +10485,11 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "#PWR0118")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
-					(reference "#PWR042")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -10621,7 +10621,7 @@
 		(instances
 			(project "rp_voyager"
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/9ca86edd-3683-462d-b98a-f0d936a65f5b/f1cc7bb6-3036-431f-93c0-4930e7b769b2"
-					(reference "D107")
+					(reference "D108")
 					(unit 1)
 				)
 				(path "/16aaafff-4e4d-4193-9340-05bf864eda5e/c41eb395-0a81-4295-aa13-94d2d2590030/42f31428-68bc-4a3b-a2ec-31e4e5a8c86d"
