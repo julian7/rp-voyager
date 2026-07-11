@@ -1,0 +1,11 @@
+[env]
+xrotation="358"
+yrotation="5"
+zrotation="2"
+width="1920"
+height="1080"
+outdir="docs"
+projectbase="hardware/rp_voyager.kicad"
+
+[tools]
+usage = "latest"

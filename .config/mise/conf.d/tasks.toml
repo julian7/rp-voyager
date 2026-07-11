@@ -1,19 +1,13 @@
-[env]
-xrotation="358"
-yrotation="5"
-zrotation="2"
-width="1920"
-height="1080"
-outdir="docs"
-projectbase="hardware/rp_voyager.kicad"
-
 [tasks.all]
+description = "Render KiCAD images"
 depends = ["schema", "layout", "images"]
 
 [tasks.schema]
+description = "Render KiCAD schema doc"
 run = "kicad-cli sch export pdf ${projectbase}_sch -o ${outdir}/schematic-v1.pdf"
 
 [tasks.layout]
+description = "Render KiCAD layout doc"
 run = [
     "kicad-cli pcb export pdf ${projectbase}_pcb -o ${outdir}/layout-front.pdf -l F.Cu,Edge.Cuts --black-and-white",
     "kicad-cli pcb export pdf ${projectbase}_pcb -o ${outdir}/layout-back.pdf -l B.Cu,Edge.Cuts --black-and-white --mirror",
@@ -31,6 +25,7 @@ flag "--zrotation <rotation>" help="Rotation to Z axis" default="2"
 run = "kicad-cli pcb render --zoom 1.8 -w ${width} -h ${height} --output ${outdir}/{{ usage.file }} {% if usage.side %}--side {{ usage.side }}{% endif %} --rotate ${xrotation},${yrotation},{{ usage.zrotation }} --quality high ${projectbase}_pcb"
 
 [tasks.images]
+description = "Render KiCAD 3d images"
 run = [
     "mise run pcb_image board-front.jpg",
     "mise run pcb_image --side bottom --zrotation -2 board-back.jpg",

@@ -91,64 +91,8 @@
           "optional shunt"
         ],
         [
-          "silk_over_copper|185584400|133456400|d5de1b02-177e-4f9c-805e-fe52c8f82462|94abcd8f-a2b6-4e2e-8169-d8f577b0c32e",
-          ""
-        ],
-        [
-          "silk_over_copper|185664421|133131400|f990182c-e26b-486e-8b2d-933222471295|94abcd8f-a2b6-4e2e-8169-d8f577b0c32e",
-          ""
-        ],
-        [
-          "silk_over_copper|185664421|134381400|93de03fe-3096-43eb-9aaa-1d6a61123ca2|94abcd8f-a2b6-4e2e-8169-d8f577b0c32e",
-          ""
-        ],
-        [
-          "silk_over_copper|187651680|145548051|87d17869-dd3b-434a-add9-b3bcecb22587|fad196d8-c5f7-4bf5-b8e2-d216286aeb9c",
-          ""
-        ],
-        [
-          "silk_over_copper|188304379|133131400|d001acf0-3cba-4c07-a599-3486d9e77034|afda297c-f43a-4bb5-8ffc-2cb0f56493a1",
-          ""
-        ],
-        [
-          "silk_over_copper|188304379|134381400|352051e2-de97-4b40-abb9-c6344ee8645e|afda297c-f43a-4bb5-8ffc-2cb0f56493a1",
-          ""
-        ],
-        [
-          "silk_over_copper|188384400|134056400|7820e6be-7c06-4ea4-a48e-0ad19ed908cc|afda297c-f43a-4bb5-8ffc-2cb0f56493a1",
-          ""
-        ],
-        [
-          "silk_over_copper|224359342|140345756|2f4f0548-edfb-4ede-a385-cb01dd0c4065|fab87714-c5c8-4150-a17c-7e51b030b6b4",
-          ""
-        ],
-        [
-          "silk_over_copper|230686023|132675419|ab05d0a7-941b-4269-9795-4cf775d22be4|1f4e5afe-4553-42db-b232-db33a6fbbb21",
-          ""
-        ],
-        [
-          "silk_over_copper|230766008|133600419|03037843-c1ab-427a-bf00-fa1d9ca222cd|1f4e5afe-4553-42db-b232-db33a6fbbb21",
-          ""
-        ],
-        [
-          "silk_over_copper|230766037|132350419|8a1d943f-eb7c-40c3-ad4f-4212f9dd7df0|1f4e5afe-4553-42db-b232-db33a6fbbb21",
-          ""
-        ],
-        [
-          "silk_over_copper|233405968|132350419|0e2460a2-5192-49d4-926a-c0403f21bf25|34e212dd-ad61-4bea-a231-5ff31063aecc",
-          ""
-        ],
-        [
-          "silk_over_copper|233405995|133600419|3d0f3d48-96f1-4aac-93cf-326666d337e3|34e212dd-ad61-4bea-a231-5ff31063aecc",
-          ""
-        ],
-        [
-          "silk_over_copper|233486023|133275419|9e024688-6a4e-4049-9de2-cf69ebd44163|34e212dd-ad61-4bea-a231-5ff31063aecc",
-          ""
-        ],
-        [
           "unconnected_items|203943275|138038119|F.Cu|4|2e824086-5332-44e2-acb7-09cb32d2286c|2e824086-5332-44e2-acb7-09cb32d2286c",
-          "out of PCB connection"
+          ""
         ]
       ],
       "meta": {
