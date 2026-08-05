@@ -83,15 +83,43 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|188629400|132641400|4953050b-19dc-4e1f-95ed-153361c192c9|da29b53c-4188-4d59-a0dc-951e8c75dcc3",
-          "optional shunt"
+          "shorting_items|186734400|134006400|73ede46e-2601-4123-a3cb-7fc87efdfe37|7eedeecf-eca2-4e25-88a1-d3569bb11d9c",
+          ""
         ],
         [
-          "courtyards_overlap|233731023|131860419|62a043d5-b096-4118-be38-492eb60d3308|f92a9575-6a4d-4b27-bccd-cfd4c4ade6d6",
-          "optional shunt"
+          "shorting_items|187234400|133506400|73ede46e-2601-4123-a3cb-7fc87efdfe37|c51fc470-0af6-4322-aed3-61a6bae93826",
+          ""
         ],
         [
-          "unconnected_items|203943275|138038119|F.Cu|4|2e824086-5332-44e2-acb7-09cb32d2286c|2e824086-5332-44e2-acb7-09cb32d2286c",
+          "shorting_items|231851023|133225419|3bb8902a-4b5c-4331-9f91-7359b076c9d3|dfb0a87f-47d9-4f2e-b546-4896bd8478c8",
+          ""
+        ],
+        [
+          "shorting_items|232351023|132725419|3bb8902a-4b5c-4331-9f91-7359b076c9d3|de976135-cefa-42f3-a0a7-18379bf498b0",
+          ""
+        ],
+        [
+          "solder_mask_bridge|186734400|134006400|73ede46e-2601-4123-a3cb-7fc87efdfe37|7eedeecf-eca2-4e25-88a1-d3569bb11d9c",
+          ""
+        ],
+        [
+          "solder_mask_bridge|187134400|134006400|59fe81cf-e075-4f9b-aa6a-b6849c4875b8|7eedeecf-eca2-4e25-88a1-d3569bb11d9c",
+          ""
+        ],
+        [
+          "solder_mask_bridge|187234400|133506400|73ede46e-2601-4123-a3cb-7fc87efdfe37|c51fc470-0af6-4322-aed3-61a6bae93826",
+          ""
+        ],
+        [
+          "solder_mask_bridge|231851023|133225419|3bb8902a-4b5c-4331-9f91-7359b076c9d3|dfb0a87f-47d9-4f2e-b546-4896bd8478c8",
+          ""
+        ],
+        [
+          "solder_mask_bridge|231951023|132725419|08b7b066-6e3f-4166-babd-922f0b7838f0|de976135-cefa-42f3-a0a7-18379bf498b0",
+          ""
+        ],
+        [
+          "solder_mask_bridge|232351023|132725419|3bb8902a-4b5c-4331-9f91-7359b076c9d3|de976135-cefa-42f3-a0a7-18379bf498b0",
           ""
         ]
       ],
@@ -570,7 +598,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "tuning_profile": "",
-        "via_diameter": 0.6,
+        "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
       },
@@ -582,7 +610,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "tuning_profile": "",
-        "via_diameter": 0.6,
+        "via_diameter": 0.7,
         "via_drill": 0.3
       },
       {

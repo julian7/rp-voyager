@@ -8733,7 +8733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+		(property "Footprint" "rp_voyager:R_1206_3216Metric_WireJumper"
 			(at 173.99 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -10986,7 +10986,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)

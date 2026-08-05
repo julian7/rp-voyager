@@ -7,8 +7,8 @@ Features:
 - On-board RP2354A MCU (2MB flash) for each side
 - USB-C connection for power, firmware update, and a separate USB-C for UART connection between the halves
 - RGB matrix under each key
-- Gateron KS-33 low-profile keyswitches
-- 1.2mm top plate
+- Gateron KS-33 / Kailh Choc v1 / Kailh Choc v2 low-profile keyswitches
+- 1.2mm top plate (mainly planning for KS-33)
 - 3D-printable (or CNC-manufacturable) case
 - PCB design and manufacture files
 - ZMK firmware
@@ -20,7 +20,7 @@ Non-features:
 
 ## What is Voyager?
 
-Voyager is a minimal, split keyboard by ZSA Technology Labs, the same company who was behind the now discontinued Planck EZ.
+Voyager is a minimal, split keyboard by [ZSA Technology Labs](https://www.zsa.io/), the same company who was behind the now discontinued Planck EZ.
 
 The original Voyager is using an STM32 MCU, with RGB matrix. It has 52 keys, and 52 LEDs.
 
