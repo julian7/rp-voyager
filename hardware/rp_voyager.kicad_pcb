@@ -582,12 +582,6 @@
 		(path "/9ca86edd-3683-462d-b98a-f0d936a65f5b/22a0881f-8879-456d-b0b2-3f3994f164ed/3fa37f28-c197-4aee-8ddc-a975d1434343")
 		(sheetname "/Right/Encoder (copy)/")
 		(sheetfile "encoder.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "A" "C" "B" "MP" "S1" "S2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -722,7 +716,7 @@
 		)
 		(fp_arc
 			(start 7.200001 5.4)
-			(mid 7.999998 -0.508321)
+			(mid 8 -0.508322)
 			(end 8.8 5.4)
 			(stroke
 				(width 0.1)
@@ -882,7 +876,7 @@
 		(pad "A" smd rect
 			(at 0 0 210)
 			(size 2 1.5)
-			(layers "F.Cu" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Right/Encoder (copy)/CLK")
 			(pinfunction "A_A")
 			(pintype "passive")
@@ -891,7 +885,7 @@
 		(pad "B" smd rect
 			(at 0 5 210)
 			(size 2 1.5)
-			(layers "F.Cu" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Right/Encoder (copy)/DT")
 			(pinfunction "B_B")
 			(pintype "passive")
@@ -901,7 +895,7 @@
 		(pad "C" smd rect
 			(at 0 2.5 210)
 			(size 2 1.5)
-			(layers "F.Cu" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
 			(pinfunction "C_C")
 			(pintype "passive")
@@ -911,7 +905,7 @@
 		(pad "MP" smd rect
 			(at 8 -4.25 210)
 			(size 3 2.5)
-			(layers "F.Cu" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
 			(pinfunction "MP_MP")
 			(pintype "passive")
@@ -920,7 +914,7 @@
 		(pad "MP" smd rect
 			(at 8 9.25 210)
 			(size 3 2.5)
-			(layers "F.Cu" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
 			(pinfunction "MP_MP")
 			(pintype "passive")
@@ -929,7 +923,7 @@
 		(pad "S1" smd rect
 			(at 16 5 210)
 			(size 2 1.5)
-			(layers "F.Cu" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Right/Encoder (copy)/SW_COL")
 			(pinfunction "S1_S1")
 			(pintype "passive")
@@ -939,7 +933,7 @@
 		(pad "S2" smd rect
 			(at 16 0 210)
 			(size 2 1.5)
-			(layers "F.Cu" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(D115-A)")
 			(pinfunction "S2_S2")
 			(pintype "passive")
@@ -6340,12 +6334,6 @@
 		(path "/c41eb395-0a81-4295-aa13-94d2d2590030/48194633-b25b-4431-875c-e0dd69517d2a/3fa37f28-c197-4aee-8ddc-a975d1434343")
 		(sheetname "/Left/Encoder/")
 		(sheetfile "encoder.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "A" "C" "B" "MP" "S1" "S2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6480,7 +6468,7 @@
 		)
 		(fp_arc
 			(start 7.200001 5.4)
-			(mid 7.999999 -0.508321)
+			(mid 8 -0.508322)
 			(end 8.8 5.4)
 			(stroke
 				(width 0.1)
@@ -6640,7 +6628,7 @@
 		(pad "A" smd rect
 			(at 0 0 330)
 			(size 2 1.5)
-			(layers "F.Cu" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Left/Encoder/CLK")
 			(pinfunction "A_A")
 			(pintype "passive")
@@ -6649,7 +6637,7 @@
 		(pad "B" smd rect
 			(at 0 5 330)
 			(size 2 1.5)
-			(layers "F.Cu" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Left/Encoder/DT")
 			(pinfunction "B_B")
 			(pintype "passive")
@@ -6659,7 +6647,7 @@
 		(pad "C" smd rect
 			(at 0 2.5 330)
 			(size 2 1.5)
-			(layers "F.Cu" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
 			(pinfunction "C_C")
 			(pintype "passive")
@@ -6669,7 +6657,7 @@
 		(pad "MP" smd rect
 			(at 8 -4.25 330)
 			(size 3 2.5)
-			(layers "F.Cu" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
 			(pinfunction "MP_MP")
 			(pintype "passive")
@@ -6678,7 +6666,7 @@
 		(pad "MP" smd rect
 			(at 8 9.25 330)
 			(size 3 2.5)
-			(layers "F.Cu" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
 			(pinfunction "MP_MP")
 			(pintype "passive")
@@ -6687,7 +6675,7 @@
 		(pad "S1" smd rect
 			(at 16 5 330)
 			(size 2 1.5)
-			(layers "F.Cu" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Left/Encoder/SW_COL")
 			(pinfunction "S1_S1")
 			(pintype "passive")
@@ -6697,7 +6685,7 @@
 		(pad "S2" smd rect
 			(at 16 0 330)
 			(size 2 1.5)
-			(layers "F.Cu" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(D57-A)")
 			(pinfunction "S2_S2")
 			(pintype "passive")
@@ -152205,40 +152193,6 @@
 		)
 	)
 	(zone
-		(net "/Left/Connector and Power/+3.3V")
-		(layer "B.Cu")
-		(hatch none 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 188.279 114.1918) (xy 188.479 114.1918) (xy 188.659 113.896851) (xy 188.379 113.6008) (xy 188.189658 113.825376)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 188.387043 113.609412) (xy 188.388001 113.610317) (xy 188.597118 113.831422) (xy 188.600313 113.839788)
-				(xy 188.596895 113.847732) (xy 188.594492 113.850137) (xy 188.594488 113.85014) (xy 188.538541 113.906087)
-				(xy 188.538537 113.906092) (xy 188.498979 113.974608) (xy 188.498977 113.974612) (xy 188.4785 114.051035)
-				(xy 188.4785 114.1801) (xy 188.475073 114.188373) (xy 188.4668 114.1918) (xy 188.2912 114.1918)
-				(xy 188.282927 114.188373) (xy 188.2795 114.1801) (xy 188.2795 113.723089) (xy 188.282254 113.715548)
-				(xy 188.370556 113.610814) (xy 188.378509 113.606699)
-			)
-		)
-	)
-	(zone
 		(net "GND")
 		(layer "B.Cu")
 		(uuid "2a485288-233f-4e08-be7e-22d10fc51bc9")
@@ -152903,6 +152857,40 @@
 				(xy 247.146853 89.49464) (xy 247.146851 89.494641) (xy 247.120075 89.511156) (xy 247.111386 89.512558)
 				(xy 247.10425 89.507405) (xy 247.102538 89.50132) (xy 247.107785 88.324531) (xy 247.11119 88.316416)
 				(xy 247.119335 88.313084)
+			)
+		)
+	)
+	(zone
+		(net "/Left/Connector and Power/+3.3V")
+		(layer "B.Cu")
+		(hatch none 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 188.279 114.1918) (xy 188.479 114.1918) (xy 188.659 113.896851) (xy 188.379 113.6008) (xy 188.189658 113.825376)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 188.387043 113.609412) (xy 188.388001 113.610317) (xy 188.597118 113.831422) (xy 188.600313 113.839788)
+				(xy 188.596895 113.847732) (xy 188.594492 113.850137) (xy 188.594488 113.85014) (xy 188.538541 113.906087)
+				(xy 188.538537 113.906092) (xy 188.498979 113.974608) (xy 188.498977 113.974612) (xy 188.4785 114.051035)
+				(xy 188.4785 114.1801) (xy 188.475073 114.188373) (xy 188.4668 114.1918) (xy 188.2912 114.1918)
+				(xy 188.282927 114.188373) (xy 188.2795 114.1801) (xy 188.2795 113.723089) (xy 188.282254 113.715548)
+				(xy 188.370556 113.610814) (xy 188.378509 113.606699)
 			)
 		)
 	)
