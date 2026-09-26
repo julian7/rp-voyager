@@ -712,7 +712,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../mechanical/board.step",
       "svg": "",
       "vrml": ""
     },
