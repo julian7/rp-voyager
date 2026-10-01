@@ -4,7 +4,7 @@ depends = ["schema", "layout", "images"]
 
 [tasks.schema]
 description = "Render KiCAD schema doc"
-run = "kicad-cli sch export pdf ${projectbase}_sch -o ${outdir}/schematic-v1.pdf"
+run = "kicad-cli sch export pdf ${projectbase}_sch -o ${outdir}/schematic-v${design_version}.pdf"
 
 [tasks.layout]
 description = "Render KiCAD layout doc"
