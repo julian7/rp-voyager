@@ -7,7 +7,7 @@
 	(title_block
 		(title "Voyager keyboard with RP235x")
 		(date "2026-05-17")
-		(rev "0")
+		(rev "1x")
 		(company "Julian7")
 	)
 	(lib_symbols
@@ -249,24 +249,12 @@
 		(uuid "4dc0b49a-c0ea-43e5-b27e-b50f911fe9bb")
 	)
 	(no_connect
-		(at 179.07 102.87)
-		(uuid "52beaeaf-7048-4517-b909-008c5eed220d")
-	)
-	(no_connect
 		(at 179.07 83.82)
 		(uuid "53dcd640-bd21-42e8-8720-f55c9c4c00bc")
 	)
 	(no_connect
-		(at 179.07 97.79)
-		(uuid "72e6f600-171f-4983-a884-ca6251801d3a")
-	)
-	(no_connect
 		(at 152.4 114.3)
 		(uuid "8d2d28df-e4ad-4e97-bed4-a831e2622fcc")
-	)
-	(no_connect
-		(at 179.07 100.33)
-		(uuid "92770605-adf7-4f19-b1f0-688e5b915a4b")
 	)
 	(no_connect
 		(at 154.94 114.3)
@@ -281,26 +269,12 @@
 		(uuid "ab90bafc-d43a-4bb7-a06a-026e3aec4c80")
 	)
 	(no_connect
-		(at 179.07 95.25)
-		(uuid "b3e46770-83c9-4fa7-955d-300f7836cd9a")
-	)
-	(no_connect
 		(at 179.07 78.74)
 		(uuid "c7cdf2c1-f6cc-4e5d-a28f-4de5d897bd9d")
 	)
 	(no_connect
 		(at 135.89 90.17)
 		(uuid "e574e41a-a1fe-4859-83b9-2f7cc8929cc6")
-	)
-	(wire
-		(pts
-			(xy 189.23 90.17) (xy 179.07 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "022151cf-ff61-4adc-8d95-ed3840a17581")
 	)
 	(wire
 		(pts
@@ -394,6 +368,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 123.19) (xy 198.12 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d3045a-9ac9-4775-abfe-c1f16ef1b0e0")
+	)
+	(wire
+		(pts
 			(xy 157.48 162.56) (xy 147.32 162.56)
 		)
 		(stroke
@@ -404,13 +388,13 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 123.19) (xy 189.23 123.19)
+			(xy 184.15 95.25) (xy 179.07 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38acce8a-9ca0-45dc-b79c-e22c179aa600")
+		(uuid "33b3e6a6-e29e-4486-8160-44cc7ef5a618")
 	)
 	(wire
 		(pts
@@ -474,7 +458,17 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 120.65) (xy 191.77 120.65)
+			(xy 207.01 123.19) (xy 198.12 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "451538cd-c39e-49d3-8f89-a36f0a02c315")
+	)
+	(wire
+		(pts
+			(xy 207.01 120.65) (xy 200.66 120.65)
 		)
 		(stroke
 			(width 0)
@@ -494,16 +488,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 123.19) (xy 189.23 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bd4bdc2-3583-47ab-87f6-860ec25700e0")
-	)
-	(wire
-		(pts
 			(xy 208.28 67.31) (xy 219.71 67.31)
 		)
 		(stroke
@@ -514,13 +498,33 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 125.73) (xy 186.69 125.73)
+			(xy 207.01 125.73) (xy 195.58 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4dfb5a76-59dc-434f-99b0-65be3689cdea")
+	)
+	(wire
+		(pts
+			(xy 195.58 100.33) (xy 195.58 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe049f0-d6f9-48e9-b8c9-567f7d08529a")
+	)
+	(wire
+		(pts
+			(xy 147.32 137.16) (xy 189.23 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52dbb7a8-b476-4054-91f5-8a9dbbd1757e")
 	)
 	(wire
 		(pts
@@ -544,16 +548,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 92.71) (xy 179.07 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6236426f-0cb1-4f69-a1e7-978be9251cbe")
-	)
-	(wire
-		(pts
 			(xy 128.27 97.79) (xy 135.89 97.79)
 		)
 		(stroke
@@ -574,6 +568,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 142.24) (xy 184.15 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a5ed369-4995-4fe3-834f-0a2bf29ca4bc")
+	)
+	(wire
+		(pts
 			(xy 127 63.5) (xy 127 77.47)
 		)
 		(stroke
@@ -584,6 +588,26 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 142.24) (xy 184.15 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ab4b49-3a1d-4b01-98c9-aa6b83f169cb")
+	)
+	(wire
+		(pts
+			(xy 147.32 139.7) (xy 186.69 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77262157-d12b-4ce9-a205-4f0fa4d9809b")
+	)
+	(wire
+		(pts
 			(xy 133.35 124.46) (xy 157.48 124.46)
 		)
 		(stroke
@@ -591,6 +615,16 @@
 			(type default)
 		)
 		(uuid "7a7db18a-c778-4c76-a93c-0eebf3fd40c1")
+	)
+	(wire
+		(pts
+			(xy 189.23 90.17) (xy 179.07 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df2f28f-4bc5-42af-a8ad-620ba69dadb0")
 	)
 	(wire
 		(pts
@@ -624,7 +658,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 120.65) (xy 191.77 66.04)
+			(xy 200.66 120.65) (xy 200.66 66.04)
 		)
 		(stroke
 			(width 0)
@@ -674,6 +708,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 139.7) (xy 186.69 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a692a7f0-dbad-4d3f-9e62-31bdbcf2df2b")
+	)
+	(wire
+		(pts
 			(xy 130.81 120.65) (xy 154.94 120.65)
 		)
 		(stroke
@@ -681,16 +725,6 @@
 			(type default)
 		)
 		(uuid "a6c7abd9-7c49-4773-b1e6-3079153177ac")
-	)
-	(wire
-		(pts
-			(xy 186.69 125.73) (xy 186.69 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b15961da-bf98-42bd-94a2-05677ed3a85e")
 	)
 	(wire
 		(pts
@@ -764,7 +798,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 66.04) (xy 157.48 66.04)
+			(xy 200.66 66.04) (xy 157.48 66.04)
 		)
 		(stroke
 			(width 0)
@@ -781,6 +815,16 @@
 			(type default)
 		)
 		(uuid "dc5dba97-284e-41f9-aee0-9dd0a482d1e7")
+	)
+	(wire
+		(pts
+			(xy 189.23 137.16) (xy 189.23 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deed288c-af66-4f57-b4a5-c2057a27e24d")
 	)
 	(wire
 		(pts
@@ -801,6 +845,46 @@
 			(type default)
 		)
 		(uuid "e041813f-9f1c-4766-903c-4d7b266ec675")
+	)
+	(wire
+		(pts
+			(xy 147.32 144.78) (xy 181.61 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e55b3acd-edf9-4e68-a9b3-b13b8b3efe25")
+	)
+	(wire
+		(pts
+			(xy 198.12 102.87) (xy 179.07 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e711c672-0043-4802-8ba0-948cb9f31003")
+	)
+	(wire
+		(pts
+			(xy 186.69 92.71) (xy 179.07 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e880d0c3-2657-4aaa-a061-43c118026fbb")
+	)
+	(wire
+		(pts
+			(xy 179.07 100.33) (xy 195.58 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99aaf5c-c64b-413b-885f-25d8046dd3c8")
 	)
 	(wire
 		(pts
@@ -851,6 +935,26 @@
 			(type default)
 		)
 		(uuid "efd58c69-fc27-41b2-88ea-ad355d641865")
+	)
+	(wire
+		(pts
+			(xy 181.61 144.78) (xy 181.61 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f624b18b-3216-40b0-bdb6-52d156bf4d67")
+	)
+	(wire
+		(pts
+			(xy 181.61 97.79) (xy 179.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcadacaf-a82a-40cd-8004-f18617bf2f63")
 	)
 	(symbol
 		(lib_id "rp_voyager:PCB_left")

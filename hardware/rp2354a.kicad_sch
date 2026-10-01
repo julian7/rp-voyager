@@ -7,7 +7,7 @@
 	(title_block
 		(title "Voyager keyboard with RP235x")
 		(date "2026-05-17")
-		(rev "0")
+		(rev "1x")
 		(company "Julian7")
 		(comment 1 "RP2354A MCU")
 	)
@@ -2575,12 +2575,12 @@
 		(uuid "245e22b8-8468-4885-934d-7e7651dbf180")
 	)
 	(no_connect
-		(at 140.97 143.51)
-		(uuid "24c152f2-662c-4901-b3d2-5ff104861462")
+		(at 140.97 146.05)
+		(uuid "2530fb78-8269-4051-88e6-bf7589738ecb")
 	)
 	(no_connect
-		(at 140.97 146.05)
-		(uuid "aa64c2e0-b041-4cc8-aab3-be84e9a3dc43")
+		(at 140.97 143.51)
+		(uuid "7ca9f538-d430-4fc8-a7d7-9bfe2386da26")
 	)
 	(no_connect
 		(at 140.97 113.03)
@@ -4587,7 +4587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Crystal_AKL:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
+		(property "Footprint" "PCM_Crystal_AKL:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm"
 			(at 88.9 132.08 0)
 			(hide yes)
 			(show_name no)

@@ -329,7 +329,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0"
+      "sch_revision": "1x"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -946,7 +946,7 @@
         "uuid": "16aaafff-4e4d-4193-9340-05bf864eda5e"
       }
     ],
-    "used_designators": "makersmark1,Realestateleft2,SYM1",
+    "used_designators": "makersmark1,Realestateleft2,TP7-10,SYM1",
     "variants": []
   },
   "sheets": [

@@ -7,7 +7,7 @@
 	(title_block
 		(title "Voyager keyboard with RP235x")
 		(date "2026-05-17")
-		(rev "0")
+		(rev "1x")
 		(company "Julian7")
 		(comment 1 "Rotary encoder")
 	)
