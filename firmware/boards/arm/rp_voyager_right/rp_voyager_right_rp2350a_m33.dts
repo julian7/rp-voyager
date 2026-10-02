@@ -59,19 +59,19 @@ zephyr_udc0: &usbd {
 				<&gpio0 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  /* row 1 */
 				<&gpio0 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  /* row 2 */
 				<&gpio0 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  /* row 3 */
-				<&gpio0 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;  /* row 4 (thumb) */
-	col-gpios = <&gpio0 7 GPIO_ACTIVE_HIGH>,  /* col 0 */
-				<&gpio0 8 GPIO_ACTIVE_HIGH>,  /* col 1 */
-				<&gpio0 9 GPIO_ACTIVE_HIGH>,  /* col 2 */
-				<&gpio0 10 GPIO_ACTIVE_HIGH>,  /* col 3 */
-				<&gpio0 11 GPIO_ACTIVE_HIGH>,  /* col 4 */
-				<&gpio0 12 GPIO_ACTIVE_HIGH>;  /* col 5 */
+				<&gpio0 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;  /* row 4 (thumb) */
+	col-gpios = <&gpio0 12 GPIO_ACTIVE_HIGH>,  /* col 0 */
+				<&gpio0 11 GPIO_ACTIVE_HIGH>,  /* col 1 */
+				<&gpio0 22 GPIO_ACTIVE_HIGH>,  /* col 2 */
+				<&gpio0 9 GPIO_ACTIVE_HIGH>,  /* col 3 */
+				<&gpio0 8 GPIO_ACTIVE_HIGH>,  /* col 4 */
+				<&gpio0 7 GPIO_ACTIVE_HIGH>;  /* col 5 */
 };
 
 &pinctrl {
 	ws2812_pio_default: ws2812_pio_default {
 		group1 {
-			pinmux = <PIO0_P13>;
+			pinmux = <PIO0_P25>;
 		};
 	};
 

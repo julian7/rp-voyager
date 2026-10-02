@@ -17,27 +17,23 @@
 		columns = <12>;
 		rows = <5>;
 		/* The keymap covers both 6-column halves; only local thumb columns 3-5 exist. */
-		map = <
-			RC(0,0) RC(0,1) RC(0,2) RC(0,3) RC(0,4) RC(0,5)
-			RC(0,6) RC(0,7) RC(0,8) RC(0,9) RC(0,10) RC(0,11)
-			RC(1,0) RC(1,1) RC(1,2) RC(1,3) RC(1,4) RC(1,5)
-			RC(1,6) RC(1,7) RC(1,8) RC(1,9) RC(1,10) RC(1,11)
-			RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)
-			RC(2,6) RC(2,7) RC(2,8) RC(2,9) RC(2,10) RC(2,11)
-			RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)
-			RC(3,6) RC(3,7) RC(3,8) RC(3,9) RC(3,10) RC(3,11)
-			RC(4,3) RC(4,4) RC(4,5) RC(4,9) RC(4,10) RC(4,11)
-		>;
+		// dts-format off
+		map = <RC(0,0) RC(0,1) RC(0,2) RC(0,3) RC(0,4) RC(0,5)   RC(0,6) RC(0,7) RC(0,8) RC(0,9) RC(0,10) RC(0,11)
+			   RC(1,0) RC(1,1) RC(1,2) RC(1,3) RC(1,4) RC(1,5)   RC(1,6) RC(1,7) RC(1,8) RC(1,9) RC(1,10) RC(1,11)
+			   RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)   RC(2,6) RC(2,7) RC(2,8) RC(2,9) RC(2,10) RC(2,11)
+			   RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)   RC(3,6) RC(3,7) RC(3,8) RC(3,9) RC(3,10) RC(3,11)
+			                           RC(4,3) RC(4,4) RC(4,5)   RC(4,6) RC(4,7) RC(4,8)>;
+		// dts-format on
 	};
 
 	encoder: encoder {
-	    compatible = "alps,ec11";
+		compatible = "alps,ec11";
 		steps = <80>;
 		status = "disabled";
 	};
 
 	sensors: sensors {
-	    compatible = "zmk,keymap-sensors";
+		compatible = "zmk,keymap-sensors";
 		sensors = <&encoder>;
 		triggers-per-rotation = <20>;
 	};
@@ -50,29 +46,28 @@
 	};
 
 	wired_split: wired_split {
-	    compatible = "zmk,wired-split";
+		compatible = "zmk,wired-split";
 		device = <&uart0>;
 	};
 };
 
 &pio0 {
-    status = "okay";
+	status = "okay";
 
-    pio_ws2812: pio_ws2812 {
-        compatible = "worldsemi,ws2812-rpi_pico-pio";
-        pinctrl-0 = <&ws2812_pio_default>;
-        pinctrl-names = "default";
-        bit-waveform = <3>, <3>, <4>;
+	pio_ws2812: pio_ws2812 {
+		compatible = "worldsemi,ws2812-rpi_pico-pio";
+		pinctrl-0 = <&ws2812_pio_default>;
+		pinctrl-names = "default";
+		bit-waveform = <3>, <3>, <4>;
 
-        led_strip: ws2812 {
-            gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;  /* placeholder pin */
-            chain-length = <26>;
-            color-mapping =
-                <LED_COLOR_ID_GREEN>,
-                <LED_COLOR_ID_RED>,
-                <LED_COLOR_ID_BLUE>;
-            reset-delay = <280>;
-            frequency = <800000>;
-        };
-    };
+		led_strip: ws2812 {
+			gpios = <&gpio0 25 GPIO_ACTIVE_HIGH>;  /* placeholder pin */
+			chain-length = <26>;
+			color-mapping = <LED_COLOR_ID_GREEN>,
+							<LED_COLOR_ID_RED>,
+							<LED_COLOR_ID_BLUE>;
+			reset-delay = <280>;
+			frequency = <800000>;
+		};
+	};
 };

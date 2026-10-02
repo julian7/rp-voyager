@@ -67,7 +67,7 @@ zephyr_udc0: &usbd {
 &pinctrl {
 	ws2812_pio_default: ws2812_pio_default {
 		group1 {
-			pinmux = <PIO0_P13>;
+			pinmux = <PIO0_P25>; // pin 37
 		};
 	};
 

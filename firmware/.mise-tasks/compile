@@ -1,10 +1,16 @@
 #!/usr/bin/env bash
-set -e
+set -eu
 
 #USAGE flag "-t --target <target>" help="compile target (eg. left or right)"
 #USAGE flag "-z --zmkdir <zmkdir>" help="ZMK build environment"
 
-: ${usage_zmkdir:=$HOME/src/zmk}
+if [[ -z "${usage_target:-}" ]]; then
+    mise compile -t left
+    mise compile -t right
+    exit 0
+fi
+
+: "${usage_zmkdir:=$HOME/src/zmk}"
 
 if [[ ! -e "config/rp_voyager_${usage_target}.conf" ]]; then
     echo "target ${usage_target} not found."
