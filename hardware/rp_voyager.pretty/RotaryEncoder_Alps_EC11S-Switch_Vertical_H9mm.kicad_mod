@@ -8,7 +8,7 @@
 	(property "Reference" "SW29"
 		(at 2.8 -4.7 180)
 		(layer "F.SilkS")
-		(uuid "2fe81b4b-f3fc-442b-84a0-1da2cd41473a")
+		(uuid "ecdf8b2a-cd04-4636-b900-c01c42ee54ad")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "RotaryEncoder_Switch_MP"
 		(at 7.5 10.4 180)
 		(layer "F.Fab")
-		(uuid "61545d01-5c98-49f5-a8e6-f054511a4aa4")
+		(uuid "9e3c415d-51bf-466b-811d-7877ba0287b6")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b88e8e4a-4aa9-474f-9188-f3025e08c0c1")
+		(uuid "d8c66fdf-86b3-48b2-a8cf-687c5d7b3918")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c84e5d00-13bd-40fb-aaae-659e9e38dcf6")
+		(uuid "b62f3e79-7ff6-43d8-a5c4-201a09ad013c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -66,7 +66,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c13882aa-6d5a-4181-80b1-0bb1281c6422")
+		(uuid "9806a606-2357-42fc-8be8-619f39e65580")
 	)
 	(fp_line
 		(start 0 -1.3)
@@ -76,7 +76,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "601afb36-bc41-4d24-a683-bf8c81b001c0")
+		(uuid "17cc8608-2889-460e-b354-965571bfbcee")
 	)
 	(fp_line
 		(start 0.3 -1.6)
@@ -86,7 +86,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d8d90fb2-bf24-493b-a612-df018a030a29")
+		(uuid "417c08d2-f3d0-40f4-93f2-28ba0eecd757")
 	)
 	(fp_line
 		(start 1.9 -3.6)
@@ -96,7 +96,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a0bf5ea4-85c8-4ee6-8275-50ea463777dc")
+		(uuid "c0474e98-a259-4c61-b50b-e52c06eeb444")
 	)
 	(fp_line
 		(start 6 -3.6)
@@ -106,7 +106,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "08244641-f79f-4a32-b001-c370a0a795ea")
+		(uuid "b73fffef-c40b-4e3e-b06e-65d1bfde76b2")
 	)
 	(fp_line
 		(start 6 8.6)
@@ -116,7 +116,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "942ad45e-0083-4fc8-9dc1-f254a66d6cc3")
+		(uuid "428fca4d-97b9-4cdb-87bd-b9df21d26d59")
 	)
 	(fp_line
 		(start 7.5 2.5)
@@ -126,7 +126,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "75bc95aa-0eb5-4a68-94fc-7d04a47cfde0")
+		(uuid "99b37259-c9ed-4ae4-90c9-9f7de5d94646")
 	)
 	(fp_line
 		(start 8 2)
@@ -136,7 +136,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "813e6b54-782e-4b84-b1fa-f548cb9f3502")
+		(uuid "ad8be68b-3272-447a-a62c-812be97ce9d1")
 	)
 	(fp_line
 		(start 10 -3.6)
@@ -146,7 +146,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d2fa07d7-9436-496b-bb27-acff61c4dbef")
+		(uuid "23e929fb-4f41-4627-bf76-effadfb5c97b")
 	)
 	(fp_line
 		(start 14.1 -3.6)
@@ -156,7 +156,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9b406c0d-f36f-41a7-b20f-2d4031d7580f")
+		(uuid "c8c59d3d-a8fe-4002-9da6-283d8ce3696e")
 	)
 	(fp_line
 		(start 14.1 1.2)
@@ -166,7 +166,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a4ffcd23-c043-4318-ac6d-a518616aef93")
+		(uuid "37c6e823-3205-4e7a-97b3-0fc5817d077f")
 	)
 	(fp_line
 		(start 14.1 6)
@@ -176,7 +176,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "cb3f99a4-a7d2-4ec7-8452-c0899b83f798")
+		(uuid "5db8c8db-36d6-4255-8eca-513000e41f31")
 	)
 	(fp_line
 		(start 14.1 8.6)
@@ -186,7 +186,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "30cf5127-0d10-4e74-b60a-c3f60626cc84")
+		(uuid "e676b532-975e-46cf-932c-24143a364bfc")
 	)
 	(fp_arc
 		(start 7.200001 5.4)
@@ -197,7 +197,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2bb560d7-43c2-4742-b96e-0ce1029447d8")
+		(uuid "89db9797-55ec-4319-b5aa-6b42b5b59272")
 	)
 	(fp_line
 		(start -1 -5.5)
@@ -207,7 +207,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "aa60a10e-ac3f-4fcb-aca8-2058e6e17bd8")
+		(uuid "d9658916-0f85-4259-ba79-f6f9162c0851")
 	)
 	(fp_line
 		(start -1 -5.5)
@@ -217,7 +217,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "7861c250-ef12-4c5a-86ae-4ffc25c7f8cc")
+		(uuid "214af058-7b8b-4587-b759-d3243711a6c6")
 	)
 	(fp_line
 		(start 17 10.5)
@@ -227,7 +227,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "787afac2-2222-4fa8-bac8-1eec7f0d78a4")
+		(uuid "4b42ed20-b9af-4a7c-9e52-4e17c6437b83")
 	)
 	(fp_line
 		(start 17 10.5)
@@ -237,7 +237,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "51b46271-ef0e-4d1c-b9d1-45b68cd0151e")
+		(uuid "56f07c7f-aaaf-4a82-b3f5-3cd6dfcfaed5")
 	)
 	(fp_line
 		(start 2 -2)
@@ -247,7 +247,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2a80591e-50a1-42a4-b3ef-f95d34dcb838")
+		(uuid "0f835a18-1b1b-4b29-9d2c-cada3db3677a")
 	)
 	(fp_line
 		(start 2 8.5)
@@ -257,7 +257,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f9874cf3-c69b-4bcf-8222-cb1f7615030b")
+		(uuid "5ba143d0-0d4e-4c6b-9779-3246f568d622")
 	)
 	(fp_line
 		(start 3.5 -3.5)
@@ -267,7 +267,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "4ba99f8f-c607-409a-8815-edf4a323a42d")
+		(uuid "0546a16f-b1be-4a9a-96f4-0efd2c8e513c")
 	)
 	(fp_line
 		(start 5 2.5)
@@ -277,7 +277,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "84acef77-cf81-4cad-8b39-9a6b5b2b5d78")
+		(uuid "2734acd5-93bf-4297-ab88-6340e6acefe3")
 	)
 	(fp_line
 		(start 8 -0.5)
@@ -287,7 +287,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "01a060ad-0f09-465b-824e-d308ee6aacc6")
+		(uuid "60550f71-232f-4df8-915d-80a665b7d047")
 	)
 	(fp_line
 		(start 14 -3.5)
@@ -297,7 +297,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e352e62b-eb4b-4333-8498-502db7b0c678")
+		(uuid "303843f8-9469-4e40-a498-b660fb1d4c08")
 	)
 	(fp_line
 		(start 14 8.5)
@@ -307,7 +307,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "288eefa1-bfc8-4d14-9aaa-eea6d659c85a")
+		(uuid "7984c019-3dd0-44a9-9678-b3fce9ac93b2")
 	)
 	(fp_circle
 		(center 8 2.5)
@@ -318,12 +318,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "df156dfa-b098-4523-9ebf-056fafbb458c")
+		(uuid "2e9e55e7-81da-43da-89c4-45b5a6415cea")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 11.1 6.3 180)
 		(layer "F.Fab")
-		(uuid "cfdd78a5-5974-4ec8-a2c6-c784fc0f4930")
+		(uuid "4cd88c4b-75e3-4637-a40d-773024591c5f")
 		(effects
 			(font
 				(size 1 1)
@@ -333,65 +333,65 @@
 	)
 	(pad "" np_thru_hole circle
 		(at 8 0.5)
-		(size 1.25 1.25)
-		(drill 1.25)
+		(size 1.3 1.3)
+		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(thermal_bridge_angle 90)
-		(uuid "8ba5667a-597a-44e0-adf4-76d0e28a2c66")
+		(uuid "5f37d7b8-60e8-4b40-aa34-939a893e8547")
 	)
 	(pad "" np_thru_hole circle
 		(at 8 5)
-		(size 1 1)
-		(drill 1)
+		(size 1.1 1.1)
+		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(thermal_bridge_angle 90)
-		(uuid "38ff1194-fcbe-4220-ac8e-51a5480e3869")
+		(uuid "65f7df09-d000-4d6f-a0f1-98ff765c57ec")
 	)
 	(pad "A" smd rect
 		(at 0 0)
 		(size 2 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "3241c215-507c-43d0-9786-4ca8d36428d7")
+		(uuid "4c3857b8-c7b8-43d4-9a81-25d4b9c40723")
 	)
 	(pad "B" smd rect
 		(at 0 5)
 		(size 2 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "565e1948-0d9c-4964-ba0c-a38a62aa6a65")
+		(uuid "1ed5d708-0803-4ff2-ad3d-e1397aafbca1")
 	)
 	(pad "C" smd rect
 		(at 0 2.5)
 		(size 2 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "3e63500b-0a44-4d3d-8ddc-08dc5fc2bacb")
+		(uuid "42ef7cbf-923b-42eb-8ee2-432171b76635")
 	)
 	(pad "MP" smd rect
 		(at 8 -4.25)
 		(size 3 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "1361e6fb-cca1-4ef0-a392-f7b966ece498")
+		(uuid "7b63149f-5027-4a21-96a6-23174c82002f")
 	)
 	(pad "MP" smd rect
 		(at 8 9.25)
 		(size 3 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "837370d5-394f-4085-9ffe-8e6c6193c6bf")
+		(uuid "81e6931a-4fef-4436-abb5-79fea633c658")
 	)
 	(pad "S1" smd rect
 		(at 16 5)
 		(size 2 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "72c48067-b629-41f3-b38d-6cf2a9eceffa")
+		(uuid "ed59c7fd-f5b2-486e-8cd9-d1fecb29435e")
 	)
 	(pad "S2" smd rect
 		(at 16 0)
 		(size 2 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "12e8d842-64c6-471e-984d-a93055705903")
+		(uuid "a1da4bc0-2484-40be-b446-c28ccc24588b")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm.step"

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Voyager keyboard with RP235x")
-		(date "2026-05-17")
-		(rev "1x")
+		(date "2026-10-03")
+		(rev "1.1")
 		(company "Julian7")
 		(comment 1 "RGB backlight")
 	)
@@ -10011,6 +10011,50 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 135.89 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 135.89 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 1" ""
+			(at 135.89 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 2" ""
+			(at 135.89 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Link 3" ""
 			(at 135.89 143.51 0)
 			(hide yes)
 			(show_name no)

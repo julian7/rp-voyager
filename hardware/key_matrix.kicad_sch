@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Voyager keyboard with RP235x")
-		(date "2026-05-17")
-		(rev "1x")
+		(date "2026-10-03")
+		(rev "1.1")
 		(company "Julian7")
 		(comment 1 "Key Matrix")
 	)

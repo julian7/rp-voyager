@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Voyager keyboard with RP235x")
-		(date "2026-05-17")
-		(rev "1x")
+		(date "2026-10-03")
+		(rev "1.1")
 		(company "Julian7")
 		(comment 1 "Power supply and UART connector")
 		(comment 2 "Provides 5V, 3V3, USB_DN, USB_DP, and UART_RX / UART_TX")
