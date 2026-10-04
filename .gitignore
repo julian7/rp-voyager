@@ -2,3 +2,5 @@
 *.FCBak
 *.nc
 *machining*.FCStd
+tmp/*
+!tmp/.keep
