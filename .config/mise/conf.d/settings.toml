@@ -6,7 +6,7 @@ width="1920"
 height="1080"
 outdir="docs"
 projectbase="hardware/rp_voyager.kicad"
-design_version="1x"
+design_version="1.2"
 
 [tools]
 usage = "latest"

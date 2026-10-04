@@ -38,6 +38,8 @@ As a minor detail, SMD encoders' holes are a bit too tight, a 0.1mm clearance is
 
 Version v1.1: only left side has been ordered, as there are no significant upgrades on the right side.
 
+Version v1.2 (PCB only): hours after ordering the PCB I found that the keyboard layout is slightly different on the right side. Since I've ordered a new series of the left half, I've updated the design for the right one. A mechanical plate design now contains a v1-specific right plate.
+
 ## Can I copy it?
 
 I don't recommend any usage at this point. Copyright-wise I retain all rights for now, probably opening up later. You can watch, you can learn, and you can laugh at my failures though.

@@ -1,6 +1,6 @@
-[tasks.all]
+[tasks.export]
 description = "Render KiCAD images"
-depends = ["schema", "layout", "images"]
+depends = ["schema", "layout", "images", "step"]
 
 [tasks.schema]
 description = "Render KiCAD schema doc"
@@ -30,3 +30,7 @@ run = [
     "mise run pcb_image board-front.jpg",
     "mise run pcb_image --side bottom --zrotation -2 board-back.jpg",
 ]
+
+[tasks.step]
+description = "Render KiCAD PCB STEP file"
+run = "kicad-cli pcb export step ${projectbase}_pcb --output mechanical/board_v${design_version}.step --drill-origin --include-silkscreen --include-pads --fuse-shapes --fill-all-vias"
