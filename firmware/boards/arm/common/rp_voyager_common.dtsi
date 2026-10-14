@@ -32,6 +32,10 @@
 		status = "disabled";
 	};
 
+	encoder_slot: encoder_slot {
+		status = "disabled";
+	};
+
 	sensors: sensors {
 		compatible = "zmk,keymap-sensors";
 		sensors = <&encoder>;

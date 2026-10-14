@@ -25,6 +25,10 @@
 	b-gpios = <&gpio0 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 };
 
+&sensors {
+	sensors = <&encoder_slot &encoder>;
+};
+
 &flash0 {
 	reg = <0x10000000 DT_SIZE_M(2)>;
 
