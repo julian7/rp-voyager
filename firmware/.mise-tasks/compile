@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-set -eu
-
 #USAGE flag "-t --target <target>" help="compile target (eg. left or right)"
 #USAGE flag "-z --zmkdir <zmkdir>" help="ZMK build environment"
+#USAGE flag "-c --container-image <image>" help="Runs build under docker container"
+
+set -eux
 
 if [[ -z "${usage_target:-}" ]]; then
     mise compile -t left
@@ -12,24 +13,34 @@ fi
 
 : "${usage_zmkdir:=$HOME/src/zmk}"
 
+declare -a CMD=()
+
 if [[ ! -e "config/rp_voyager_${usage_target}.conf" ]]; then
     echo "target ${usage_target} not found."
     exit 1
 fi
 
-if [[ ! -d ${usage_zmkdir} ]]; then
+if [[ -z "${usage_container_image:-}" && ! -d ${usage_zmkdir} ]]; then
     echo "no ZMK directory found at $usage_zmkdir"
     exit 1
 fi
 
-export RP_VOYAGER_PATH="$PWD"
-mkdir -p "build/${usage_target}"
+mkdir -p "build"
+if [[ -n "${usage_container_image:-}" ]]; then
+    RP_VOYAGER_PATH="/src"
+    CMD+=(docker run --rm -v "$PWD:$RP_VOYAGER_PATH" "$usage_container_image")
+else
+    RP_VOYAGER_PATH="$PWD"
+    cd "$usage_zmkdir"
+fi
 
-cd "$usage_zmkdir"
-
-uv run west build --source app --board rp_voyager_${usage_target}/rp2350a/m33 \
+"${CMD[@]}" uv run west build --source app --board "rp_voyager_${usage_target}/rp2350a/m33" \
     --build-dir "${RP_VOYAGER_PATH}/build/${usage_target}" --pristine -- \
     -DZEPHYR_TOOLCHAIN_VARIANT="${ZEPHYR_TOOLCHAIN_VARIANT:-zephyr}" \
     -DZMK_EXTRA_MODULES="${RP_VOYAGER_PATH}" \
     -DZMK_CONFIG="${RP_VOYAGER_PATH}/config" \
     -DKEYMAP_FILE="${RP_VOYAGER_PATH}/config/rp_voyager.keymap"
+
+if [[ -n "${usage_container_image:-}" ]]; then
+    "${CMD[@]}" chown -R "$(id -u):$(id -g)" "${RP_VOYAGER_PATH}/build/${usage_target}"
+fi
