@@ -1,0 +1,5 @@
+name: rp2-boot-mode-retention
+boards:
+  /.*/rp2350a/.*/:
+    append:
+      EXTRA_DTC_OVERLAY_FILE: soc/rp2350.overlay

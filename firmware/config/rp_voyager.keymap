@@ -22,6 +22,7 @@
 		compatible = "zmk,keymap";
 
 		default_layer {
+			display-name = "Base";
       		// dts-format off
             bindings = <
                 &kp GRAVE      &kp N1      &kp N2   &kp N3   &kp N4   &kp N5      &kp N6   &kp N7   &kp N8   &kp N9    &kp N0        &kp MINUS
@@ -35,12 +36,13 @@
 		};
 
 		layer_1 {
+			display-name = "Layer 1";
         	// dts-format off
             bindings = <
                 &kp ESC        &kp F1      &kp F2    &kp F3    &kp F4    &kp F5       &kp F6   &kp F7   &kp F8   &kp F9     &kp F10    &kp F11
                 &kp GRAVE      &kp EXCL    &kp AT    &kp HASH  &kp DLLR  &kp PRCNT    &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_MINUS  &kp KP_SLASH     &kp F12
                 &trans         &kp CARET   &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR     &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_PLUS   &kp KP_ASTERISK  &kp CLEAR2
-                &trans         &trans      &kp LBKT  &kp RBKT  &kp LBRC  &kp RBRC     &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_DOT    &kp KP_EQUAL     &kp KP_ENTER
+                &bootloader    &trans      &kp LBKT  &kp RBKT  &kp LBRC  &kp RBRC     &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_DOT    &kp KP_EQUAL     &kp KP_ENTER
                                            &kp C_STOP   &trans    &trans                  &kp DEL  &kp KP_N0  &kp C_REPEAT
             >;
             // dts-format on
@@ -48,16 +50,27 @@
 		};
 
 		layer_2 {
+			display-name = "Layer 2";
        		// dts-format off
             bindings = <
                 &rgb_ug RGB_TOG &rgb_ug RGB_BRI &rgb_ug RGB_BRD &rgb_ug RGB_SPI &rgb_ug RGB_SPD &rgb_ug RGB_EFF      &trans       &trans       &trans     &trans    &trans &trans
                 &trans          &trans          &kp C_VOL_DN    &kp C_VOL_UP    &kp C_MUTE      &trans               &kp PG_UP    &kp HOME     &kp UP     &kp END   &trans &trans
                 &trans          &kp C_PREV      &kp C_NEXT      &kp C_STOP      &kp C_PP        &trans               &kp PG_DN    &kp LEFT     &kp DOWN   &kp RIGHT &trans &trans
-                &trans          &trans          &trans          &rgb_ug RGB_HUI &rgb_ug RGB_HUD &rgb_ug RGB_SAD      &trans       &kp LC(TAB)  &kp LS(LC(TAB)) &trans &trans &trans
+                &studio_unlock  &trans          &trans          &rgb_ug RGB_HUI &rgb_ug RGB_HUD &rgb_ug RGB_SAD      &trans       &kp LC(TAB)  &kp LS(LC(TAB)) &trans &trans &bootloader
                                                 &rgb_ug RGB_TOG &trans          &trans                               &trans       &trans       &rgb_ug RGB_EFF
             >;
             // dts-format on
 			sensor-bindings = <&rgb_bri>, <&rgb_hue>;
+		};
+
+		layer_3 {
+			display-name = "Layer 3";
+			status = "reserved";
+		};
+
+		layer_4 {
+			display-name = "Layer 4";
+			status = "reserved";
 		};
 	};
 };
