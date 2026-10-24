@@ -43,3 +43,34 @@ Oct 3
 Finished building the right side. All LEDs, all hotswap sockets, and the encoder works well through the UART connection from the left side.
 
 At the same time, the first LED works on the left side, so we can conclude that only the left side PCB needs an update, the right one can be fixed with a 0603 resistor soldered on Q1's pins 1-2.
+
+---
+
+Oct 14
+
+Left side PCB v1.1 arrived, components from faulty left side have been salvaged to the new version. Apart from the usual glitches during bring-up (there was a short under the MCU, but this time, D+ and D- were shorted under the main USB too), the system started working.
+
+While testing the board, I noticed a key was not functioning (a diode has fallen off), and apparently, a Macbook Pro M1 doesn't deliver enough current for the LEDs in Swirl effect. Might need to set `CONFIG_ZMK_RGB_UNDERGLOW_BRT_MAX` to limit current taken, but at the same time, a port replicator has no such issue.
+
+---
+
+Oct 24
+
+As per measurements, power consumption with Swirl effect is about 935 mA, which exceeds the available power of a USB-C port of a Macbook Pro.
+
+Power consumption measurements:
+
+| level | static red (mA) | Static peak (mA) | swirl (mA) |
+| ----: | --------------: | ---------------: |  ---------: |
+| 0 | 65 | 65 | 65 |
+| 1 | 122 | 180 | 149 |
+| 2 | 188 | 298 | 236 |
+| 3 | 236 | 412 | 320 |
+| 4 | 294 | 530 | 407 |
+| 5 | 350 | 644 | 491 |
+| 6 | 408 | 761 | 577 |
+| 7 | 463 | 875 | 660 |
+| 8 | 577 | 980 | 747 |
+| 9 | 638 | 998 | 935 |
+
+The best default brightness is 6, but I don't think the limit should be taken.

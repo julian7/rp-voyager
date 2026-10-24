@@ -9,11 +9,13 @@ Features:
 - RGB matrix under each key
 - Gateron KS-33 / Kailh Choc v1 / Kailh Choc v2 low-profile keyswitches
 - 1.2mm top plate (mainly planning for KS-33)
+- FreeCAD design for case and plate
+- ZMK firmware with local build
 
 Non-features:
 
 - Wireless functionality
-- No tooling for mass production beyond common PCB houses and hobbyist CNC/3D print.
+- No tooling for mass production beyond common PCB prototyping and hobbyist CNC/3D print.
 
 ## What is Voyager?
 
@@ -22,6 +24,14 @@ Voyager is a minimal, split keyboard by [ZSA Technology Labs](https://www.zsa.io
 The original Voyager is using an STM32 MCU, with RGB matrix. It has 52 keys, and 52 LEDs.
 
 ## Project status
+
+Experimental build is done:
+
+![picture](docs/experimental_build.jpeg)
+
+Electronics are working well, but LED power consumption can exceed available resources. Please be aware that higher LED brightness settings can crash the firmware.
+
+## Change notes
 
 Version v1.0 has been built, but the left side is not usable:
 
