@@ -50,8 +50,10 @@ Version v1.1: only left side has been ordered, as there are no significant upgra
 
 Version v1.2 (PCB only): hours after ordering the PCB I found that the keyboard layout is slightly different on the right side. Since I've ordered a new series of the left half, I've updated the design for the right one. A mechanical plate design now contains a v1-specific right plate.
 
-## Can I copy it?
+## Licensing
 
-I don't recommend any usage at this point. Copyright-wise I retain all rights for now, probably opening up later. You can watch, you can learn, and you can laugh at my failures though.
+The contents of this project itself is licensed under [Creative Commons Attribution 4.0 International](LICENSE-CC-BY-4.0.txt), the underlying source code is licensed under [MIT license](LICENSE-MIT.txt), and the hardware / mechanical part is licensed under [CERN Open Hardware-Weakly reciprocal 2.0](LICENSE-CERN-OHL-W-2.0.txt).
+
+I don't recommend any usage at this point, but I invite you to watch, to learn, and to laugh at my failures.
 
 The original design is originated by ZSA Technology Labs, Inc. I can't stop being gratituous enough for all the things they've done.
