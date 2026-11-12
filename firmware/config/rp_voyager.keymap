@@ -16,6 +16,13 @@
 			#sensor-binding-cells = <0>;
 			bindings = <&rgb_ug RGB_HUD>, <&rgb_ug RGB_HUI>;
 		};
+
+		altboot: altboot {
+			compatible = "zmk,behavior-mod-morph";
+			#binding-cells = <0>;
+			bindings = <&trans>, <&bootloader>;
+			mods = <(MOD_LALT | MOD_RALT)>;
+		};
 	};
 
 	keymap {
@@ -42,8 +49,8 @@
                 &kp ESC        &kp F1      &kp F2    &kp F3    &kp F4        &kp F5         &kp F6   &kp F7   &kp F8   &kp F9     &kp F10    &kp F11
                 &kp GRAVE      &kp EXCL    &kp AT    &kp HASH  &kp LS(MINUS) &kp LS(EQUAL)  &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_MINUS  &kp KP_SLASH     &kp F12
                 &trans         &kp CARET   &kp MINUS &kp EQUAL &kp LPAR      &kp RPAR       &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_PLUS   &kp KP_ASTERISK  &kp CLEAR2
-                &bootloader    &trans      &kp LBKT  &kp RBKT  &kp LBRC      &kp RBRC       &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_DOT    &kp KP_EQUAL     &kp KP_ENTER
-                                           &kp C_STOP   &trans    &trans                        &kp DEL  &kp KP_N0  &kp C_REPEAT
+                &altboot       &trans      &kp LBKT  &kp RBKT  &kp LBRC      &kp RBRC       &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_DOT    &kp KP_EQUAL     &kp KP_ENTER
+                                           &kp C_STOP   &trans    &trans                        &trans  &kp KP_N0  &kp C_REPEAT
             >;
             // dts-format on
 			sensor-bindings = <&inc_dec_kp C_PREV C_NEXT>, <&inc_dec_kp PG_DN PG_UP>;
@@ -56,8 +63,8 @@
                 &rgb_ug RGB_TOG &rgb_ug RGB_BRI &rgb_ug RGB_BRD &rgb_ug RGB_SPI &rgb_ug RGB_SPD &rgb_ug RGB_EFF      &trans       &trans       &trans     &trans    &trans &trans
                 &trans          &trans          &kp C_VOL_DN    &kp C_VOL_UP    &kp C_MUTE      &trans               &kp PG_UP    &kp HOME     &kp UP     &kp END   &trans &trans
                 &trans          &kp C_PREV      &kp C_NEXT      &kp C_STOP      &kp C_PP        &trans               &kp PG_DN    &kp LEFT     &kp DOWN   &kp RIGHT &trans &trans
-                &studio_unlock  &trans          &trans          &rgb_ug RGB_HUI &rgb_ug RGB_HUD &rgb_ug RGB_SAD      &trans       &kp LC(TAB)  &kp LS(LC(TAB)) &trans &trans &bootloader
-                                                &rgb_ug RGB_TOG &trans          &trans                               &trans       &trans       &rgb_ug RGB_EFF
+                &studio_unlock  &trans          &trans          &rgb_ug RGB_HUI &rgb_ug RGB_HUD &rgb_ug RGB_SAD      &trans       &kp LC(TAB)  &kp LS(LC(TAB)) &trans &trans &altboot
+                                                &rgb_ug RGB_TOG &kp DEL         &trans                               &trans       &trans       &rgb_ug RGB_EFF
             >;
             // dts-format on
 			sensor-bindings = <&rgb_bri>, <&rgb_hue>;
