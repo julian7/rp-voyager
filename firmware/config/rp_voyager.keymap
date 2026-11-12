@@ -17,6 +17,16 @@
 			bindings = <&rgb_ug RGB_HUD>, <&rgb_ug RGB_HUI>;
 		};
 
+		qlt: qlt {
+			compatible = "zmk,behavior-hold-tap";
+			#binding-cells = <2>;
+			flavor = "tap-preferred";
+			tapping-term-ms = <200>;
+			quick-tap-ms = <250>;
+			bindings = <&mo>, <&kp>;
+			display-name = "Quick-Layer-Tap";
+		};
+
 		altboot: altboot {
 			compatible = "zmk,behavior-mod-morph";
 			#binding-cells = <0>;
@@ -36,7 +46,7 @@
                 &kp TAB        &kp Q       &kp W    &kp E    &kp R    &kp T       &kp Y    &kp U    &kp I     &kp O    &kp P         &kp BSLH
                 &mt LCTRL ESC  &kp A       &kp S    &kp D    &kp F    &kp G       &kp H    &kp J    &kp K     &kp L    &kp SEMI      &mt RCTRL SQT
                 &kp LSHFT      &mt LALT Z  &kp X    &kp C    &kp V    &kp B       &kp N    &kp M    &kp COMMA &kp DOT  &mt RALT FSLH &mt RSHFT RBKT
-                                        &kp C_MUTE   &lt 1 BSPC    &kp LGUI       &kp ENTER  &lt 2 SPACE   &kp C_PP
+                                        &kp C_MUTE  &qlt 1 BSPC    &kp LGUI       &kp ENTER  &qlt 2 SPACE  &kp C_PP
             >;
             // dts-format on
 			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>, <&inc_dec_kp C_BRI_DN C_BRI_UP>;
@@ -50,7 +60,7 @@
                 &kp GRAVE      &kp EXCL    &kp AT    &kp HASH  &kp LS(MINUS) &kp LS(EQUAL)  &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_MINUS  &kp KP_SLASH     &kp F12
                 &trans         &kp CARET   &kp MINUS &kp EQUAL &kp LPAR      &kp RPAR       &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_PLUS   &kp KP_ASTERISK  &kp CLEAR2
                 &altboot       &trans      &kp LBKT  &kp RBKT  &kp LBRC      &kp RBRC       &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_DOT    &kp KP_EQUAL     &kp KP_ENTER
-                                           &kp C_STOP   &trans    &trans                        &trans  &kp KP_N0  &kp C_REPEAT
+                                           &kp C_STOP   &kp BSPC    &trans                        &trans  &kp KP_N0  &kp C_REPEAT
             >;
             // dts-format on
 			sensor-bindings = <&inc_dec_kp C_PREV C_NEXT>, <&inc_dec_kp PG_DN PG_UP>;
